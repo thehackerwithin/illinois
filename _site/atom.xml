@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Hacker Within, Illinois</title>
+ <link href="http://thehackerwithin.github.com/illinois/atom.xml" rel="self"/>
+ <link href="http://thehackerwithin.github.com/illinois/"/>
+ <updated>2015-07-29T15:55:27-05:00</updated>
+ <id>http://thehackerwithin.github.com/illinois</id>
+ <author>
+   <name>Hacker Within, Illinois</name>
+ </author>
+ 
+ 
+ <entry>
+   <title>Bleeding Edge Stuff</title>
+   <link href="http://thehackerwithin.github.com/illinois/posts/template-upcoming"/>
+   <updated>2999-12-31T00:00:00-06:00</updated>
+   <id>http://thehackerwithin.github.com/illinois/posts/template-upcoming</id>
+   <content type="html">&lt;h2&gt;Attending&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&amp;lt;++&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h2&gt;New Hat&lt;/h2&gt;
+
+&lt;p&gt;New Hat is a cool young cat.&lt;/p&gt;
+
+&lt;h2&gt;Bleeding Edge Stuff&lt;/h2&gt;
+
+&lt;p&gt;Brand spanking new library is brand spanking new&lt;/p&gt;
+
+&lt;p&gt;Code examples can be found &lt;a href=&quot;/tree/master/bleeding-edge-stuff&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Lightning Talks&lt;/h2&gt;
+
+&lt;h2&gt;&amp;lt;+ person +&gt; : &amp;lt;+ topic +&gt;&lt;/h2&gt;
+
+&lt;h2&gt;&amp;lt;+ person +&gt; : &amp;lt;+ topic +&gt;&lt;/h2&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Classic Topic</title>
+   <link href="http://thehackerwithin.github.com/illinois/posts/template-previous"/>
+   <updated>0001-01-01T00:00:00-06:00</updated>
+   <id>http://thehackerwithin.github.com/illinois/posts/template-previous</id>
+   <content type="html">&lt;h2&gt;Attending&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;bob&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h2&gt;Old Hat&lt;/h2&gt;
+
+&lt;p&gt;Old Hat is a researcher&lt;/p&gt;
+
+&lt;h2&gt;Classic Topic&lt;/h2&gt;
+
+&lt;p&gt;Classic Topic is classic.&lt;/p&gt;
+
+&lt;p&gt;Code examples can be found &lt;a href=&quot;/tree/master/classic&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Lightning Talks&lt;/h2&gt;
+
+&lt;h3&gt;Ted : Old Stuff&lt;/h3&gt;
+</content>
+ </entry>
+ 
+ 
+</feed>
