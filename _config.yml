@@ -4,9 +4,9 @@ permalink: /posts/:title
 auto: false
 rdiscount:
   extensions: [smart]
-url: http://thehackerwithin.github.com/wisconsin
-name: Hacker Within, Wisconsin
-description: An initial blog and site for THW at UW-Madison
+url: http://thehackerwithin.github.com/illinois
+name: Hacker Within, Illinois
+description: An initial blog and site for THW at UI at Urbana-Champaign
 twitter: hackerwithin
 gravatar_url: http://www.gravatar.com/avatar/0203c034a145af6cc2576d56cdb4cf73
 disqus_username: hackerwithinadmin

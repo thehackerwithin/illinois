@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>Hacker Within, Wisconsin</title>
- <link href="http://thehackerwithin.github.com/wisconsin/atom.xml" rel="self"/>
- <link href="http://thehackerwithin.github.com/wisconsin/"/>
- <updated>2015-07-28T16:31:38-05:00</updated>
- <id>http://thehackerwithin.github.com/wisconsin</id>
+ <title>Hacker Within, Illinois</title>
+ <link href="http://thehackerwithin.github.com/illinois/atom.xml" rel="self"/>
+ <link href="http://thehackerwithin.github.com/illinois/"/>
+ <updated>2015-07-29T15:51:42-05:00</updated>
+ <id>http://thehackerwithin.github.com/illinois</id>
  <author>
-   <name>Hacker Within, Wisconsin</name>
+   <name>Hacker Within, Illinois</name>
  </author>
  
  
  <entry>
    <title>Bleeding Edge Stuff</title>
-   <link href="http://thehackerwithin.github.com/wisconsin/posts/template-upcoming"/>
+   <link href="http://thehackerwithin.github.com/illinois/posts/template-upcoming"/>
    <updated>2999-12-31T00:00:00-06:00</updated>
-   <id>http://thehackerwithin.github.com/wisconsin/posts/template-upcoming</id>
+   <id>http://thehackerwithin.github.com/illinois/posts/template-upcoming</id>
    <content type="html">&lt;h2&gt;Attending&lt;/h2&gt;
 
 &lt;ul&gt;
@@ -43,9 +43,9 @@
  
  <entry>
    <title>Classic Topic</title>
-   <link href="http://thehackerwithin.github.com/wisconsin/posts/template-previous"/>
+   <link href="http://thehackerwithin.github.com/illinois/posts/template-previous"/>
    <updated>0001-01-01T00:00:00-06:00</updated>
-   <id>http://thehackerwithin.github.com/wisconsin/posts/template-previous</id>
+   <id>http://thehackerwithin.github.com/illinois/posts/template-previous</id>
    <content type="html">&lt;h2&gt;Attending&lt;/h2&gt;
 
 &lt;ul&gt;
