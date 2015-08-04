@@ -1,7 +1,6 @@
 markdown: rdiscount
-pygments: true
+highlighter: pygments
 permalink: /posts/:title
-auto: false
 rdiscount:
   extensions: [smart]
 url: http://thehackerwithin.github.com/illinois
