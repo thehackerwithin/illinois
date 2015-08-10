@@ -16,12 +16,11 @@
 
   <link rel="stylesheet" href="{{ site.url }}/css/base.css" type="text/css" media="screen, projection" />
   <link rel="stylesheet" href="{{ site.url }}/css/pygments.css" type="text/css" />
-  <link rel="stylesheet" href="{{ site.url }}/css/syntax.css" type="text/css" media="screen, projection" />
   <link media="only screen and (max-device-width: 480px)" href="{{ site.url }}/css/iphone.css" type="text/css" rel="stylesheet" />
   <link media="only screen and (device-width: 768px)" href="{{ site.url }}/css/iphone.css" type="text/css" rel="stylesheet" />
   <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
   <link rel="apple-touch-icon" href="{{ site.url }}/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" href="{{ site.url }}/favicon.ico">
+
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
   <script type="text/javascript" src="/js/application.js"></script>
 </head>
@@ -34,10 +33,10 @@
 
     <section class="name">
       <a href="{{ site.url }}/">
-        <span id="lname">The</span>
-        <span id="lname">{{ site.name|split:','|first|split:' '|first }}</span>
-        <span id="lname">{{ site.name|split:','|first|split:' '|last  }}</span>
-        <span id="lname">{{ site.name|split:','|last }}</span>
+        <span id="fname">The</span>
+        <span id="lname">{{ site.name|split:' '|first }}</span>
+        <span id="lname">{{ site.name|split:' '|last }}</span>
+        <span id="lname">{{ site.chapter }}</span>
       </a>
     </section>
 
