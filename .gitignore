@@ -11,3 +11,5 @@ Thumbs.db
 # vim #
 #######
 *.sw*
+
+_site*
