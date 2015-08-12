@@ -16,10 +16,10 @@ The {{ site.name }}, {{ site.chapter }}
 Next Meeting
 -------------
 
-* Date: Aug 12, 2015
-* Time: 12-1 PM
+* Date: Aug 19, 2015
+* Time: 11:30 AM - 1 PM
 * Location: [2004 NCSA][ncsa_map]
-* Topic: Kick-Off Meeting
+* Topic: <a href="{{ site.url }}/posts/kick-off-meeting">Kick-Off Meeting</a>
 
 What:
 -----
