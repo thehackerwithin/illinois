@@ -17,8 +17,8 @@ Next Meeting
 -------------
 
 * Date: Aug 19, 2015
-* Time: 11:30 AM - 1 PM
-* Location: [2004 NCSA][ncsa_map]
+* Time: 11:30 AM
+* Location: [3100 NCSA][ncsa_map]
 * Topic: <a href="{{ site.url }}/posts/kick-off-meeting">Kick-Off Meeting</a>
 
 What:
