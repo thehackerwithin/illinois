@@ -13,8 +13,8 @@ This meeting is to introduce The Hacker Within, Illinois chapter and discuss wha
 ## Meeting Info
 
 * Date: Aug 19, 2015
-* Time: 11:30 AM - 1 PM
-* Location: [2004 NCSA][ncsa_map]
+* Time: 11:30 AM
+* Location: [3100 NCSA][ncsa_map]
 * Topic: Kick-Off Meeting
 
 ## Questions to answer
