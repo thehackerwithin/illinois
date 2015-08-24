@@ -19,7 +19,7 @@ Next Meeting
 * Date: Aug 26, 2015
 * Time: 12:00 PM
 * Location: [1030 NCSA][ncsa_map]
-* Topic: Git and Jekyll Overview
+* Topic: Git Version Control Overview
 
 What:
 -----
