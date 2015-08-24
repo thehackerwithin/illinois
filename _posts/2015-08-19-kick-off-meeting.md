@@ -2,7 +2,7 @@
 layout: post
 title: Kick-Off Meeting
 author: Aaron Anderson
-category: upcoming
+category: posts
 tags: meeting 
 ---
 

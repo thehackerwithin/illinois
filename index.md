@@ -16,10 +16,10 @@ The {{ site.name }}, {{ site.chapter }}
 Next Meeting
 -------------
 
-* Date: Aug 19, 2015
-* Time: 11:30 AM
-* Location: [3100 NCSA][ncsa_map]
-* Topic: <a href="{{ site.url }}/posts/kick-off-meeting">Kick-Off Meeting</a>
+* Date: Aug 26, 2015
+* Time: 12:00 PM
+* Location: [1030 NCSA][ncsa_map]
+* Topic: Git and Jekyll Overview
 
 What:
 -----
