@@ -25,5 +25,13 @@ The development of state-of-the-art simulation model that self-consistently coup
 cycle that will push designs to have lower carbon footprints and in creating environmentally conscious electronics that  minimize waste. We provide 
 a quick primer on the physics of nanoelectronic devices as well as some of the key challenges faced.
 
+##Notes:
+
+[THW-Berkley: Intro to Git I][git1]
+
+[THW-Berkley: Intro to Git II][git2]
+
 [ncsa_map]: http://illinois.edu/map/view?skinId=0&ACTION=MAP&buildingId=564
 [github]: https://github.com/thehackerwithin/illinois
+[git1]: https://github.com/thehackerwithin/berkeley/tree/master/git/partI
+[git2]: https://github.com/thehackerwithin/berkeley/tree/master/git/partII
