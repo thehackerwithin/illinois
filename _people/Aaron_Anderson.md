@@ -2,10 +2,8 @@
 layout: people
 title: Aaron Anderson
 position: president
-category: people
+page.category: people
 ---
-
-# Aaron Anderson
 
 ### THW-president, Graduate Research 
 
