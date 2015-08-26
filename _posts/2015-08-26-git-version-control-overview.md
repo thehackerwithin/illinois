@@ -12,6 +12,8 @@ Version control software helps researchers track and document code development a
 same code base. A very popular and open source version control software is Git and will be introduced through the use of the online code 
 repository [Github][github]. Participants will have the opportunity to contribute to an open source project using git and Github.
 
+[Tutorial][git-tutorial]
+
 ## Meeting Info
 
 * Date: Aug 26, 2015
@@ -33,5 +35,6 @@ a quick primer on the physics of nanoelectronic devices as well as some of the k
 
 [ncsa_map]: http://illinois.edu/map/view?skinId=0&ACTION=MAP&buildingId=564
 [github]: https://github.com/thehackerwithin/illinois
+[git-tutorial]: https://github.com/thehackerwithin/illinois/blob/master/git.md
 [git1]: https://github.com/thehackerwithin/berkeley/tree/master/git/partI
 [git2]: https://github.com/thehackerwithin/berkeley/tree/master/git/partII
