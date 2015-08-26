@@ -11,12 +11,12 @@ People
 **Members of The Hacker Wihin-Illinois**
 
 <ul class="listing">
-{% assign people = (site.people | where: "category" , "people") %}
-{% for post in people %}
+{% assign people = (site.pages | where: "page.category" , "people") %}
+{% for person in people %}
 <li>
-<span>{{ post.position }}</span>
-<a href="{{ site.url }}{{ post.url }}">
-{{ post.title }} {% if post.position %} &ndash; {{ post.position }} {% endif %}
+<span>{{ person.position }}</span>
+<a href="{{ site.url }}{{ person.url }}">
+{{ person.title }} {% if person.position %} &ndash; {{ person.position }} {% endif %}
 </a></li>
 {% endfor %}
 </ul>
