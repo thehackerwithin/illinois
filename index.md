@@ -16,10 +16,10 @@ The {{ site.name }}, {{ site.chapter }}
 Next Meeting
 -------------
 
-* Date: Aug 26, 2015
+* Date: Sept 16, 2015
 * Time: 12:00 PM
 * Location: [1030 NCSA][ncsa_map]
-* Topic: Git Version Control Overview
+* Topic: Git Workflow
 
 What:
 -----
@@ -41,7 +41,7 @@ Anyone interested in software development best practices is welcome to come to o
 When:
 -----
 
-Every second Wednesday, from 12-1 PM. (full schedule to follow)
+Every second Wednesday, from 12-1 PM. Check the [Google calendar][g-calendar] for up-coming meetings and topics.
 
 How:
 -----
@@ -95,3 +95,4 @@ Other chapters:
 </section>
 
 [ncsa_map]: http://illinois.edu/map/view?skinId=0&ACTION=MAP&buildingId=564
+[g-calendar]: https://www.google.com/calendar/embed?src=kkam8vrl85hgal1tpim70jkn98%40group.calendar.google.com&ctz=America/Chicago
