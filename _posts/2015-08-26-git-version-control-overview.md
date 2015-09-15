@@ -2,7 +2,7 @@
 layout: post
 title: Git Version Control Overview
 author: Aaron Anderson
-category: upcoming
+category: posts
 tags: meeting 
 ---
 
@@ -27,14 +27,54 @@ The development of state-of-the-art simulation model that self-consistently coup
 cycle that will push designs to have lower carbon footprints and in creating environmentally conscious electronics that  minimize waste. We provide 
 a quick primer on the physics of nanoelectronic devices as well as some of the key challenges faced.
 
-##Notes:
+## Notes:
 
 [THW-Berkley: Intro to Git I][git1]
 
 [THW-Berkley: Intro to Git II][git2]
+
+## Prez Tip \#1
+
+A helpful way to view the progression of your git repository is with a handy shortcut:
+
+    $ git config --global alias.la "log --all --graph --date=short --format=format:\"%C(yellow)%h%Creset %cd%Cred%d %Cblue%cn%Creset %s\""
+
+Then just type:
+
+    $ git la
+
+Source: Professor Matt West's [git quick-ref][mwest]
+
+## Attendance
+
+- David Hannasch
+- Tan Nguyen
+- Yubo Yang
+- Greg Hart
+- Sam Kaufman
+- Abhishek Jaiswal
+- Nathan Walter
+- Andy Loftus
+- Aki Nikolaidis
+- Tanvien Talukdar
+- John Capozzo
+- Patricia Watson
+- Brain McGuigen
+- Chloe Ma
+- Tianfang Xu
+- Sikandar Mashayak
+- Terry Fleury
+- Noel Naughton
+- Michael Katolik
+- Jim Basney
+- Rylan Dmello
+- David S. Ancalle
+- Antoine Blanchard
+- Stuti Shrivastava
 
 [ncsa_map]: http://illinois.edu/map/view?skinId=0&ACTION=MAP&buildingId=564
 [github]: https://github.com/thehackerwithin/illinois
 [git-tutorial]: https://github.com/thehackerwithin/illinois/blob/master/git.md
 [git1]: https://github.com/thehackerwithin/berkeley/tree/master/git/partI
 [git2]: https://github.com/thehackerwithin/berkeley/tree/master/git/partII
+[mwest]: http://lagrange.mechse.illinois.edu/git_quick_ref/
