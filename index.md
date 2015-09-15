@@ -95,4 +95,4 @@ Other chapters:
 </section>
 
 [ncsa_map]: http://illinois.edu/map/view?skinId=0&ACTION=MAP&buildingId=564
-[g-calendar]: https://www.google.com/calendar/embed?src=kkam8vrl85hgal1tpim70jkn98%40group.calendar.google.com&ctz=America/Chicago
+[g-calendar]: https://www.google.com/calendar/embed?src=hacker.within.il%40gmail.com&ctz=America/Chicago
