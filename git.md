@@ -32,15 +32,37 @@ Grab your forked version
 $ git clone https://github.com/aaronta/illinois.git
 
 $ cd illinois
+~~~
 
-$ git remote -v
+In order to access the "gh-pages," where the website files are located, you need to make the branch with the content visible:
 
-origin  https://github.com/aaronta/illinois.git (fetch)
-origin  https://github.com/aaronta/illinois.git (push)
+~~~
+$ git branch
 
-$ git pull origin gh-pages
+* master
+~~~
 
-$ git checkout gh-pages
+This only shows the "master" branch but the "-a" flag shows all available. The only one we are interested in is the "remotes/origin/gh-pages"
+
+~~~
+$ git branch -a
+
+* master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/gh-pages
+  remotes/origin/master
+~~~
+
+Now add it to the visible branches and *checkout* gh-pages:
+
+~~~
+$ git checkout -b gh-pages origin/gh-pages
+
+$ git branch
+
+* gh-pages
+  master
+
 ~~~
 
 Now you have the entire THW-IL code for the website!
@@ -49,6 +71,13 @@ Now you have the entire THW-IL code for the website!
 
 ~~~
 $ ls
+
+404.md		README.md		_config_dev.yml		_includes
+_people		atom.xml		favicon.ico			index.md
+people.md	sitemap.xml		upcoming.md			LICENSE
+_config.yml	_drafts			_layouts			_posts
+css			images			js					previous.md
+tags.md
 
 $ ls _posts/
 ~~~
@@ -128,6 +157,11 @@ The last command will open an editor for you to confirm the update.
 Now you can send your changes:
 
 ~~~
+$ git remote -v
+
+origin  https://github.com/aaronta/illinois.git (fetch)
+origin  https://github.com/aaronta/illinois.git (push)
+
 $ git push origin gh-pages
 
 ~~~
@@ -135,6 +169,35 @@ $ git push origin gh-pages
 ###Pull Request
 
 Log on to Github account to see your repository and initiate a "**pull request**."
+
+###Get updates
+
+To keep your local repository up-to-date with the main repository you will need to add the main repository to your remote targets:
+
+~~~
+$ git remote add thw-il https://github.com/thehackerwithin/illinois.git
+
+$ git remote -v
+
+origin  https://github.com/aaronta/illinois.git (fetch)
+origin  https://github.com/aaronta/illinois.git (push)
+thw-il  https://github.com/thehackerwithin/illinois.git (fetch)
+thw-il  https://github.com/thehackerwithin/illinois.git (push)
+~~~
+
+To retrieve the newest updates to the gh-pages branch, first make sure you are on the gh-pages branch:
+
+~~~
+$ git branch
+
+  gh-pages
+* master
+
+$ git checkout gh-pages
+
+$ git pull thw-il gh-pages
+~~~
+
 
 ---
 
