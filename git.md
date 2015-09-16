@@ -170,6 +170,8 @@ $ git push origin gh-pages
 
 Log on to Github account to see your repository and initiate a "**pull request**."
 
+Look at Github's help section on [comparing across branches](https://help.github.com/articles/comparing-commits-across-time/#comparing-across-forks).
+
 ###Get updates
 
 To keep your local repository up-to-date with the main repository you will need to add the main repository to your remote targets:
