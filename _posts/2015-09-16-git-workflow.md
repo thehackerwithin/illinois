@@ -40,7 +40,7 @@ Last meeting's *fixed* example: [Git tutorial -- "add new post"][git-tutorial]
 
 
 ## Lightning Research Talk: "Error Catastrophe — HIV like melting ice"
-   Gregory R. Hart
+   [Gregory R. Hart][gregory-hart]
 
 HIV is a rapidly evolving virus which makes it difficult to treat or cure. By drawing comparisons between between the viral quasispecies and statistical physics we can calculate the "thermodynamic" properties of the virus, finding a "phase transition". This phase transition is reveals novel drug treats and new treatment strategies.
 
@@ -79,6 +79,7 @@ More tips and suggestions can be found on the StackOverflow question titled ["Gi
 
 [ncsa_map]: http://illinois.edu/map/view?skinId=0&ACTION=MAP&buildingId=564
 [aarona]: {{site.url}}/_people/Aaron_Anderson.html
+[gregory-hart]: {{site.url}}/_people/Gregory_Hart.html
 [git-tutorial]: https://github.com/thehackerwithin/illinois/blob/master/git.md
 [git-ref]: http://gitref.org/index.html
 [git-live]: https://try.github.io/levels/1/challenges/1
