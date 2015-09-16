@@ -23,9 +23,10 @@ Last meeting's *fixed* example: [Git tutorial -- "add new post"][git-tutorial]
 **External Resources** (in order of complexity):
 
 1. [Try git live in your browser][git-live] - great tutorial!
-- [Git Cheatsheet][git-cs]
-- [Simple workflow][workflow]
-- [Collaborating workflow][workflow-colab]
+2. [Git Reference][git-ref] - favorite reference
+3. [Git Cheatsheet][git-cs]
+4. [Simple workflow][workflow]
+5. [Collaborating workflow][workflow-colab]
 
 **THW Community resources:**
 
@@ -79,6 +80,7 @@ More tips and suggestions can be found on the StackOverflow question titled ["Gi
 [ncsa_map]: http://illinois.edu/map/view?skinId=0&ACTION=MAP&buildingId=564
 [aarona]: {{site.url}}/_people/Aaron_Anderson.html
 [git-tutorial]: https://github.com/thehackerwithin/illinois/blob/master/git.md
+[git-ref]: http://gitref.org/index.html
 [git-live]: https://try.github.io/levels/1/challenges/1
 [git-cs]: https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf
 [workflow]: https://guides.github.com/introduction/flow/index.html
