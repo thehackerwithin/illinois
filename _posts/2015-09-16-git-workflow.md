@@ -2,7 +2,7 @@
 layout: post
 title: Git Workflow
 author: Aaron Anderson
-category: upcoming
+category: posts
 tags: meeting 
 ---
 
