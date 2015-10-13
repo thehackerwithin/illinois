@@ -13,3 +13,4 @@ Thumbs.db
 *.sw*
 
 _site*
+*.lock
