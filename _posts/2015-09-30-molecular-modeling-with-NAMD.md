@@ -2,7 +2,7 @@
 layout: post
 title: Molecular Modeling with NAMD
 author: Maxim Belkin
-category: upcoming
+category: posts
 tags: meeting 
 ---
 
@@ -27,7 +27,20 @@ Bulk metallic glasses are interesting materials to explore the universality of g
 
 ## Attendance
 
-- <++>
-
+- Jaehyung Yu
+- Jinsheng Wang
+- Zhikun Cai
+- Nathan Walter
+- Jaiswal Abhishek
+- Antoine Blanchard
+- Tianfang Xu
+- Yubo Yang
+- Greg Hart
+- Bryce Thurston
+- Tan Nguyen
+- Ahmad Raeisi Najafi
+- Masoud Safdari
+- Aaron Anderson
+- Mohamed Mohamed
 
 [ncsa_map]: http://illinois.edu/map/view?skinId=0&ACTION=MAP&buildingId=564

@@ -16,10 +16,10 @@ The {{ site.name }}, {{ site.chapter }}
 Next Meeting
 -------------
 
-* Date: Sept 30, 2015
+* Date: Oct 14, 2015
 * Time: 12:00 PM
 * Location: [1040 NCSA][ncsa_map]
-* Topic: <a href="{{ site.url }}/posts/molecular-modeling-with-NAMD">Molecular Modeling with NAMD</a>
+* Topic: <a href="{{ site.url }}/posts/NAMD-VMD-tutorial/">Hands-on Tutorial of NAMD and VMD</a>
 
 What:
 -----

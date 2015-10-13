@@ -74,7 +74,18 @@ More tips and suggestions can be found on the StackOverflow question titled ["Gi
 
 ## Attendance
 
-- <++>
+- Greg Hart
+- Nicholas Laracuente
+- Tan Nguyen
+- Trang Vu
+- Antoine Blanchard
+- Tiangfang Xu
+- Aki Nikolaidis
+- Subhadeep De
+- Sikandar Mashayak
+- Stuti Shrivastava
+- Noel Naughton
+- Yubo Yang
 
 
 [ncsa_map]: http://illinois.edu/map/view?skinId=0&ACTION=MAP&buildingId=564
