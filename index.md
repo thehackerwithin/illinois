@@ -16,10 +16,28 @@ The {{ site.name }}, {{ site.chapter }}
 Next Meeting
 -------------
 
-* Date: Oct 14, 2015
+* Date: Oct 28, 2015
 * Time: 12:00 PM
 * Location: [1040 NCSA][ncsa_map]
-* Topic: <a href="{{ site.url }}/posts/NAMD-VMD-tutorial/">Hands-on Tutorial of NAMD and VMD</a>
+* Topic: [BASH basics--script your workflow][upcoming]
+
+Announcements
+-------------
+
+###Current Member Questionnaire
+
+Please fill-out the following questionnaire to help guide future topics:
+
+[THW topic questionnaire][googleForm]
+
+###Screening Documentary
+
+* Date: Dec 2 or 3, 2015
+* Location: [NCSA auditorium][ncsa_map]
+* Documentary: [CODE: debugging the gender gap][code]
+
+------
+#About THW-IL
 
 What:
 -----
@@ -96,3 +114,6 @@ Other chapters:
 
 [ncsa_map]: http://illinois.edu/map/view?skinId=0&ACTION=MAP&buildingId=564
 [g-calendar]: https://www.google.com/calendar/embed?src=hacker.within.il%40gmail.com&ctz=America/Chicago
+[googleForm]: https://docs.google.com/forms/d/1MLw4UiMu3Q_jELYYJRkSgJF4MsZfeLIwfbUEC9-5PD4/viewform?usp=send_form
+[code]: http://www.codedoc.co/
+[upcoming]: {{ site.url }}/upcoming.html
