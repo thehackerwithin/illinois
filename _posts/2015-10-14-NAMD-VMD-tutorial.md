@@ -2,7 +2,7 @@
 layout: post
 title: Hands-on Tutorial of NAMD and VMD
 author: Maxim Belkin
-category: upcoming
+category: posts
 tags: meeting
 ---
 
