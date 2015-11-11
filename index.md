@@ -16,10 +16,10 @@ The {{ site.name }}, {{ site.chapter }}
 Next Meeting
 -------------
 
-* Date: Oct 28, 2015
+* Date: Nov 11, 2015
 * Time: 12:00 PM
 * Location: [1040 NCSA][ncsa_map]
-* Topic: [BASH basics--script your workflow][upcoming]
+* Topic: [Make Introduction][upcoming]
 
 Announcements
 -------------
@@ -32,7 +32,7 @@ Please fill-out the following questionnaire to help guide future topics:
 
 ###Screening Documentary
 
-* Date: Dec 2 or 3, 2015
+* Date: early Spring 2016
 * Location: [NCSA auditorium][ncsa_map]
 * Documentary: [CODE: debugging the gender gap][code]
 
