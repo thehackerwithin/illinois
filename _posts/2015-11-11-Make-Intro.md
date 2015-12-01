@@ -2,7 +2,7 @@
 layout: post
 title: Make Introduction
 author: Gregory R. Hart
-category: upcoming
+category: posts
 tags: meeting,make
 ---
 
