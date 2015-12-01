@@ -31,6 +31,7 @@ Questions to answer:
 	- industry speakers
 - Is there interest in outreach?
 	- teaching coding to middle or high school kids?
+- Day-long or half-day bootcamps?
 
 ## Attendance
 
