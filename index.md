@@ -16,10 +16,10 @@ The {{ site.name }}, {{ site.chapter }}
 Next Meeting
 -------------
 
-* Date: Nov 11, 2015
+* Date: Dec 2, 2015
 * Time: 12:00 PM
 * Location: [1040 NCSA][ncsa_map]
-* Topic: [Make Introduction][upcoming]
+* Topic: [Spring '16 Planning][upcoming]
 
 Announcements
 -------------
