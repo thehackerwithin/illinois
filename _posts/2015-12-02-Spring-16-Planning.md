@@ -2,7 +2,7 @@
 layout: post
 title: Spring '16 planning
 author:
-category: upcoming
+category: posts
 tags: meeting
 ---
 

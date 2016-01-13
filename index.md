@@ -16,23 +16,17 @@ The {{ site.name }}, {{ site.chapter }}
 Next Meeting
 -------------
 
-* Date: Dec 2, 2015
-* Time: 12:00 PM
-* Location: [1040 NCSA][ncsa_map]
-* Topic: [Spring '16 Planning][upcoming]
+* Date: Jan 20, 2016
+* Time: 11:30 AM - lunch; 12:00 PM - tutorial
+* Location: [2000 NCSA][ncsa_map]
+* Topic: [Building a Website with Github][upcoming]
 
 Announcements
 -------------
 
-###Current Member Questionnaire
-
-Please fill-out the following questionnaire to help guide future topics:
-
-[THW topic questionnaire][googleForm]
-
 ###Screening Documentary
 
-* Date: early Spring 2016
+* Date: Wed Jan 27, 2016 @ 5:30 pm
 * Location: [NCSA auditorium][ncsa_map]
 * Documentary: [CODE: debugging the gender gap][code]
 
