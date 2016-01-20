@@ -34,7 +34,7 @@ gcc -Wall test.o anotherTest.o -o test
 
 Here is what is happening. When you run make it looks for a file named Makefile in the current directory and looks at the first target (thing/name on the left of the colon). It then "makes" this target by running the associated command(s) (the indented line(s) following the target) after checking the prerequisites (the things/names after the colon).This checking can lead to other targets being made.
 
-Here specifically the target test depends on test.o and anotherTest.o so make checks for files/targets these names. It finds finds the targets test.o and anotherTest.o and then checks their prerequisites test.c and anotherTest.c, but there are no targets for test.c or anotherTest.c so the rules are executed. Make checks if test.o's time stape is older then test.c's since test.o doesn't exist its timestamp is older and the rule is run (the indented lines executed). The same happens for anotherTest.o. With these prerequistites take care of make goes back to the rule for test and rule it since test is "older" then it's prerequisites.
+Here specifically the target test depends on test.o and anotherTest.o so make checks for files/targets with these names. It finds the targets test.o and anotherTest.o and then checks their prerequisites test.c and anotherTest.c, but there are no targets for test.c or anotherTest.c so the rules are executed. Make checks if test.o's time stape is older then test.c's since test.o doesn't exist its timestamp is older and the rule is run (the indented lines executed). The same happens for anotherTest.o. With these prerequistites taken care of make goes back to the rule for test and rule it since test is "older" then it's prerequisites.
 
 Since rules are only executed if the prerequites have changed since the target was made if we run make again nothing will happen:
 
@@ -51,9 +51,9 @@ gcc -c -Wall test.c
 gcc -Wall test.o anotherTest.o -o test
 ~~~
 
-anotherTest.o isn't recompiled because the chenges to test.c do not affect it. For this seem example this is not a big deal, but for more complicated projects this can save a lot of time.
+anotherTest.o isn't recompiled because the changes to test.c do not affect it. For this simple example this is not a big deal, but for more complicated projects this can save a lot of time.
 
-Make automatically builds the first target in the file. However to can specify the target by listing it after make (i.e. make clean). It is very common to have a makefile (such as this exmaple) with a target executable and a clean target that deletes the executable and all the .o files. Often clean is used if you want to rebuild everything regradless of when files were edited, however the -B option Unconditionally makes all targets.If your makefile is not named Makefile use -f __file__. If your makefile (and everything else) is not in the working directory use -C __dir__. Make will actually switch to this directory and run then switch back. 
+Make automatically builds the first target in the file. However you can specify the target by listing it after make (i.e. make clean). It is very common to have a makefile (such as this exmaple) with a target executable and a clean target that deletes the executable and all the .o files. Often clean is used if you want to rebuild everything regradless of when files were edited, however the -B option unconditionally makes all targets. If your makefile is not named Makefile use -f __file__. If your makefile (and everything else) is not in the working directory use -C __dir__. Make will actually switch to this directory and run then switch back. 
 
 ###Adding variables
 
@@ -83,7 +83,7 @@ clean:
         rm -rf *.o test
 ~~~
 
-With these varables we only have to edit one line if we want to change the compile or turn off the warnings by commenting out the line that defines Warnings. Alternately we could add a -g to the variable Warnings if we wanted to debug our code.
+With these varables we only have to edit one line if we want to change the compiler or turn off the warnings by commenting out the line that defines Warnings. Alternately we could add a -g to the variable Warnings if we wanted to debug our code.
 
 There are magic variables that are important to know about. The above file could be rewritten as:
 
@@ -105,7 +105,7 @@ clean:
         rm -rf *.o test
 ~~~
 
-Here $@ becomes the target, $< is the first prerequesite, and $^ is all the prerequisites. This has made the file less reabable, but does offer any benefit in this simiple example.
+Here $@ becomes the target, $< is the first prerequesite, and $^ is all the prerequisites. This has made the file less readable, but doesn't offer any benefit in this simiple example.
 
 ###A More complicated example
 
@@ -119,32 +119,42 @@ CXXFLAGS = -O2 -I/share/apps/include -I./include -I/usr/lib64 -I/usr/lib64/atlas
 LIBS = -L/share/apps/lib -l:libtrng4.a -L./lib -lblas /usr/lib64/atlas/liblapack.so
 CXXLDFLAGS = -O2
 
+#if DEBUG is set to y add debug flags to CXXFLAGS
 ifeq ($(DEBUG),y)
         CXXFLAGS += -DDEBUG
         CXXFLAGS += -g
 endif
 
+#if USE_OMP is set to y add libraries for OMP
 ifeq ($(USE_OMP),y)
         CXXFLAGS += -fopenmp
         LIBS += -lgomp
 endif
 
+#create a variable, CPPS, with all the files in the directory that end in .cpp
 CPPS = $(wildcard *.cpp)
+#create a variable, OBJS, with the extensions to the sorce files changed from .cpp to .o
 OBJS = $(CPPS:.cpp=.o)
+#create a list of the file names without extensions
+SOURCE = $(foreach file,$(CPPS),$(notdir $(basename $(file))))
 
+#create the executable dependent on all the object files
 PottsOMP: $(OBJS)
         $(CXX) $(CXXLDFLAGS) $(OBJS) -o $@ $(LIBS)
 
+#From each .cpp file in the directory create a rule for a .o file of the same name dependent on this .cpp file. There is another (deprecated) way of doing this .cpp.o:
 %.o: %.cpp
         $(CXX) $(CXXFLAGS) -c $<
 
 clean:
         rm -f PottsOMP *.exe *.o *~
 
+#This target creates a file, depends.mk, with the depencies for each .o file. This saves one the trouble of tries to keep track of the .h files themselves.
 depends : 
 	@ rm -f depends.mk
 	@ for f in $(SOURCE); do $(CXX) -MM $$f.cpp -MT $$f.o >> depends.mk; done
 
+#include the file created by the above target
 include depend.mk
 
 $cat depend.mk
@@ -155,4 +165,4 @@ mersenne.o: mersenne.cpp mersenne.h
 grid.o: grid.cpp grid.h
 ~~~
 
-Here I am defining a number of variables to set the compiler and compiler flags. Then I create a list of all the .cpp files in this director and create a corresponding list of .o files. Next is the target for the executable. The next is strange but powerful. Here the % acts as a wildcard and we get a target for very .cpp file in the directory. This way we do not have to write out the rules for get file. It does not matter if the number of files change. We will have rule for get one. Next I have the standard clean target. Next is a line creating a seperate file with depences and then an include line.
+Here I am defining a number of variables to set the compiler and compiler flags. Then I create a list of all the .cpp files in this directory and create a corresponding list of .o files. Next is the target for the executable. The next is strange but powerful. Here the % acts as a wildcard and we get a target for very .cpp file in the directory. This way we do not have to write out the rules for each file. It does not matter if the number of files change. We will have a rule for each one. Next I have the standard clean target. Next is a line creating a seperate file with depences and then an include line to include this file.
