@@ -71,14 +71,14 @@ Working on a PhD is physics with research focused on using empirical fitness lan
 
 #Publications
 
- - G. R. Hart, A. L. Ferguson, "Empirical Fitness Models for Hepatitis C Virus Immunogen Design" (submitted)
- - G. R. Hart, A. L. Fergunson, "Error Catastrophe and Phase Transition in the Empirical Fitness Landscape of HIV" Physical Review E 9 032705 (2015)
- - G. R. Hart "Correcting for Reflection Attenuation in the Extreme Ultraviolet Due to Surface Roughness" Thesis, Brigham Young University, Provo, UT (2012)
- - G. R. Hart, R. S. Turley, "The Effect of Surface Roughness on Reflected Intensity" The Journal of the Utah Academy 89 169-180 (2012)
- - D. A Carr, J. Corbitt, G. R. Hart, E. Gilmartin, G. L. W. Hart, "Finding New Phases for Precipitate-hardening in Platinum and Palladium Alloys" Computational Material Science 51 331-339 (2011)
+ - G\. R. Hart, A. L. Ferguson, "Empirical Fitness Models for Hepatitis C Virus Immunogen Design" (submitted)
+ - G\. R. Hart, A. L. Fergunson, "Error Catastrophe and Phase Transition in the Empirical Fitness Landscape of HIV" Physical Review E 9 032705 (2015)
+ - G\. R. Hart "Correcting for Reflection Attenuation in the Extreme Ultraviolet Due to Surface Roughness" Thesis, Brigham Young University, Provo, UT (2012)
+ - G\. R. Hart, R. S. Turley, "The Effect of Surface Roughness on Reflected Intensity" The Journal of the Utah Academy 89 169-180 (2012)
+ - D\. A. Carr, J. Corbitt, G. R. Hart, E. Gilmartin, G. L. W. Hart, "Finding New Phases for Precipitate-hardening in Platinum and Palladium Alloys" Computational Material Science 51 331-339 (2011)
 
 
 
 
 [fergusonlab]: http://ferguson.matse.illinois.edu/
-[HIVerror]: http://thehackerwithin.github.io/illinois/posts/
+[HIVerror]: http://thehackerwithin.github.io/illinois/posts/HIVerror.pdf
