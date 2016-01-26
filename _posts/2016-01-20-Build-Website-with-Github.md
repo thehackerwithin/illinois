@@ -19,6 +19,14 @@ As a computational scientist/engineer, utilizing Github's [pages][github] free w
 
 This tutorial will walk you through the steps of initializing the website (or cloning a template) and add your first content.
 
+### 2 ways to build website
+
+1. [Github Pages intro](https://pages.github.com/)
+2. "Good hackers copy, great artists steal!"
+  	- [Free Jekyll Themes](http://jekyllthemes.org/)
+  	- [Github user website template](https://github.com/svmiller/steve-ngvb-jekyll-template)
+  		- UIUC alum
+
 ## Attendance
 
 - <++>
