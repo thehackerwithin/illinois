@@ -29,6 +29,9 @@ Announcements
 * Date: Wed Jan 27, 2016 @ 5:30 pm
 * Location: [NCSA auditorium][ncsa_map]
 * Documentary: [CODE: debugging the gender gap][code]
+* RSVP: [U of I students, faculty, and staff](https://illinois.edu/fb/sec/2035007) or [off-campus](http://goo.gl/forms/AD0pNWMCjn)
+
+![CODE flyer](https://pbs.twimg.com/media/CZq85uNUsAARPQm.jpg)
 
 ------
 #About THW-IL
