@@ -12,6 +12,8 @@ Interpretive languages are easy to use but slow. Compiled languages are fast but
 
 A short summary of PIMC can be found [here][pimc-summary].
 
+A short feature demonstration of julia can be found [here][julia-basics].
+
 ## Meeting Info
 
 * Date: Feb 3, 2016
@@ -32,5 +34,6 @@ Julia installation scripts for [Fedora 23][fedora] and [Ubuntu 14.04][ubuntu]. S
 
 [vundle]: http://publish.illinois.edu/yubo-paul-yang/tutorials/julia/
 [pimc-summary]: https://github.com/Paul-St-Young/share/blob/master/julia-tutorial-pimc/doc/pimc-summary.pdf
+[julia-basics]: http://nbviewer.jupyter.org/github/Paul-St-Young/share/blob/master/julia-tutorial-pimc/julia-basics.ipynb
 
 
