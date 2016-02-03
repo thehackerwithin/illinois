@@ -27,8 +27,8 @@ Julia installation scripts for [Fedora 23][fedora] and [Ubuntu 14.04][ubuntu]. S
 
 [ncsa_map]: https://www.google.com/maps/place/National+Center+for+Supercomputing+Applications/@40.1149202,-88.2270529,17z/data=!3m1!4b1!4m2!3m1!1s0x880cd76a466b2661:0x9126ea842d5a08ba
 [julia]: http://julialang.org/
-[fedora]: https://github.com/Paul-St-Young/share/blob/master/setup-fedora23.sh
-[ubuntu]: https://github.com/Paul-St-Young/share/blob/master/setup-ubuntu14.sh
+[fedora]: https://github.com/Paul-St-Young/share/blob/master/julia-tutorial-pimc/setup-fedora23.sh
+[ubuntu]: https://github.com/Paul-St-Young/share/blob/master/julia-tutorial-pimc/setup-ubuntu14.sh
 [julia-nb]: http://nbviewer.jupyter.org/github/Paul-St-Young/share/blob/master/julia-tutorial-pimc/python_vs_julia/julia-pimc.ipynb
 [python-nb]: http://nbviewer.jupyter.org/github/Paul-St-Young/share/blob/master/julia-tutorial-pimc/python_vs_julia/python-pimc.ipynb
 
