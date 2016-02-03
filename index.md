@@ -16,22 +16,10 @@ The {{ site.name }}, {{ site.chapter }}
 Next Meeting
 -------------
 
-* Date: Jan 20, 2016
-* Time: 11:30 AM - lunch; 12:00 PM - tutorial
+* Date: Feb 3, 2016
+* Time: 12:00 PM
 * Location: [2000 NCSA][ncsa_map]
-* Topic: [Building a Website with Github][upcoming]
-
-Announcements
--------------
-
-###Screening Documentary
-
-* Date: Wed Jan 27, 2016 @ 5:30 pm
-* Location: [NCSA auditorium][ncsa_map]
-* Documentary: [CODE: debugging the gender gap][code]
-* RSVP: [U of I students, faculty, and staff](https://illinois.edu/fb/sec/2035007) or [off-campus](http://goo.gl/forms/AD0pNWMCjn)
-
-![CODE flyer](https://pbs.twimg.com/media/CZq85uNUsAARPQm.jpg)
+* Topic: [Julia vs. Python in PIMC][upcoming]
 
 ------
 #About THW-IL
