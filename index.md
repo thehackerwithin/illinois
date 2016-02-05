@@ -16,10 +16,10 @@ The {{ site.name }}, {{ site.chapter }}
 Next Meeting
 -------------
 
-* Date: Feb 3, 2016
+* Date: Feb 17, 2016
 * Time: 12:00 PM
 * Location: [2000 NCSA][ncsa_map]
-* Topic: [Julia vs. Python in PIMC][upcoming]
+* Topic: TBA
 
 ------
 #About THW-IL
