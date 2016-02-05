@@ -2,7 +2,7 @@
 layout: post
 title: Building a Website with Github
 author:
-category: upcoming
+category: posts
 tags: meeting
 ---
 

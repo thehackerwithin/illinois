@@ -2,7 +2,7 @@
 layout: post
 title: Jump Start Julia with Path Integral Monte Carlo (PIMC)
 author: Yubo ``Paul'' Yang
-category: upcoming
+category: posts
 tags: meeting
 ---
 
