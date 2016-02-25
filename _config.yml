@@ -6,7 +6,6 @@ kramdown:
   input: GFM
   hard_wrap: false
   parse_block_html: true
-
 url: http://thehackerwithin.github.com/illinois
 name: Hacker Within
 chapter: Illinois
