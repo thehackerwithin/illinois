@@ -1,4 +1,4 @@
-highlighter: rogue
+highlighter: rouge
 permalink: /posts/:title
 future: true
 markdown: kramdown
