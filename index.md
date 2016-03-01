@@ -13,14 +13,6 @@ The {{ site.name }}, {{ site.chapter }}
 <li>  <a href="{{ site.url }}/previous.html">Previous Topics</a></li>
 </ul>
 
-Next Meeting
--------------
-
-* Date: Feb 17, 2016
-* Time: 12:00 PM
-* Location: [2000 NCSA][ncsa_map]
-* Topic: TBA
-
 ------
 #About THW-IL
 
