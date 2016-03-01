@@ -1,8 +1,11 @@
-markdown: rdiscount
 highlighter: pygments
 permalink: /posts/:title
-rdiscount:
-  extensions: [smart]
+future: true
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  parse_block_html: true
 url: http://thehackerwithin.github.com/illinois
 name: Hacker Within
 chapter: Illinois
