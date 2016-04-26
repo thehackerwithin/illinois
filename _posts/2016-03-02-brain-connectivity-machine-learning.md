@@ -2,7 +2,7 @@
 layout: post
 title: Using Brain Connectivity and Machine Learning to Understand Skill Learning
 author: Aki Nikolaidis
-category: upcoming
+category: posts
 tags: meeting
 ---
 
