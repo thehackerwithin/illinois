@@ -2,7 +2,7 @@
 layout: post
 title: Predicting Earth Surface Temperature with Machine Learning
 author: THW members
-category: upcoming
+category: posts
 tags: meeting
 ---
 

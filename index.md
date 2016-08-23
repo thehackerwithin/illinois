@@ -14,7 +14,10 @@ The {{ site.name }}, {{ site.chapter }}
 </ul>
 
 ------
-#About THW-IL
+
+**Fill out questionnaire** to help guide THW: [questionnaire][google_doc]
+
+-----
 
 What:
 -----
@@ -36,7 +39,17 @@ Anyone interested in software development best practices is welcome to come to o
 When:
 -----
 
-Every second Wednesday, from 12-1 PM. Check the [Google calendar][g-calendar] for up-coming meetings and topics.
+Every second Wednesday (oppoiste CSE seminars): lunch - 11:30 AM, meeting - 12 PM. 
+
+- Aug 24
+- Sept 7
+- Sept 21
+- Oct 5
+- Oct 19
+- Nov 2
+- Nov 16
+- Nov 30
+- Dec 7
 
 How:
 -----
@@ -75,8 +88,9 @@ is now reborn as a collection of such chapters around the world. Each of
 the chapters convenes a community of scientists, at all levels of their
 education and training, to share their knowledge and best practices in
 using computing to accomplish their work.
+
 Other chapters:
-------------------
+-----
 
   * [U. California-Berkeley](http://thehackerwithin.github.io/berkeley) (USA)
   * [U. Wisconsin-Madison](http://thehackerwithin.github.io/wisconsin) (USA)
@@ -89,6 +103,7 @@ Other chapters:
 
 </section>
 
+[google_doc]: https://goo.gl/forms/KUVXSmGlDi0yT0Yz2
 [ncsa_map]: http://illinois.edu/map/view?skinId=0&ACTION=MAP&buildingId=564
 [g-calendar]: https://www.google.com/calendar/embed?src=hacker.within.il%40gmail.com&ctz=America/Chicago
 [googleForm]: https://docs.google.com/forms/d/1MLw4UiMu3Q_jELYYJRkSgJF4MsZfeLIwfbUEC9-5PD4/viewform?usp=send_form
