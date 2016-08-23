@@ -67,13 +67,13 @@ If not, you'll need to create it. Thankfully, you'll also notice a
 `_drafts` directory. In the drafts directory, you'll find an empty template for
 meeting minutes `YYYY-MM-DD-subject.markdown`. If you're preparing for a
 special holiday meeting on March 1, 2015, then the proper name for the file
-you're creating should be something like 2015-03-01-katysbirthday.markdown.
+you're creating should be something like 2015-03-03-aaronsbirthday.markdown.
 
 - In the illinois directory, execute `cp _drafts/YYYY-MM-DD-subject.markdown
-  _posts/2015-03-01-katysbirthday.markdown`
+  _posts/2015-03-03-aaronsbirthday.markdown`
 - Then, edit that file as you see fit
-- Add that file to the repository `git add _posts/2015-03-01-katysbirthday.markdown`
-- Commit it: `git commit -am "adds a post for march 1"`
+- Add that file to the repository `git add _posts/2015-03-03-aaronsbirthday.markdown`
+- Commit it: `git commit -am "adds a post for march 3"`
 - Push it to your fork `git push origin gh-pages`
 - Check if it worked at https://YOUR-USER.github.io/illinois .
 - Iterate on this until you're happy
@@ -85,7 +85,7 @@ This is very similar to creating a post:
 
 - if the file for your date is YYYY-MM-DD-tbd.markdown, rename the file replacing "tbd" with your topic 
 - edit the post
-- Commit it: `git commit -am "adds a post for march 1"
+- Commit it: `git commit -am "adds a post for march 3"
 - Push it to your fork `git push origin gh-pages`
 - Check if it worked at https://YOUR-USER.github.io/illinois .
 - Iterate on this until you're happy
