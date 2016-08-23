@@ -73,7 +73,7 @@ you're creating should be something like 2015-03-03-aaronsbirthday.markdown.
   _posts/2015-03-03-aaronsbirthday.markdown`
 - Then, edit that file as you see fit
 - Add that file to the repository `git add _posts/2015-03-03-aaronsbirthday.markdown`
-- Commit it: `git commit -am "adds a post for march 1"`
+- Commit it: `git commit -am "adds a post for march 3"`
 - Push it to your fork `git push origin gh-pages`
 - Check if it worked at https://YOUR-USER.github.io/illinois .
 - Iterate on this until you're happy
@@ -85,7 +85,7 @@ This is very similar to creating a post:
 
 - if the file for your date is YYYY-MM-DD-tbd.markdown, rename the file replacing "tbd" with your topic 
 - edit the post
-- Commit it: `git commit -am "adds a post for march 1"
+- Commit it: `git commit -am "adds a post for march 3"
 - Push it to your fork `git push origin gh-pages`
 - Check if it worked at https://YOUR-USER.github.io/illinois .
 - Iterate on this until you're happy
