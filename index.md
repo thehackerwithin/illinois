@@ -39,7 +39,7 @@ Anyone interested in software development best practices is welcome to come to o
 When:
 -----
 
-Every second Wednesday (oppoiste CSE seminars): lunch - 11:30 AM, meeting - 12 PM. 
+Every second Wednesday (opposite CSE seminars): lunch - 11:30 AM, meeting - 12 PM. 
 
 - Aug 24
 - Sept 7
