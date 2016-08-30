@@ -8,7 +8,7 @@ title: "Upcoming Topics"
 Upcoming Topics
 ================
 
-**Spring 2016**
+**Fall 2016**
 
 The Hacker Within will explore the following tentative set of topics in
 Spring 2016. In addition to these topics, Lightning Talks are welcome at the
@@ -20,7 +20,7 @@ charge of that topic to see if they would like to collaborate.
   {% assign upcoming = (site.posts | where: "category" , "upcoming") %}
   {% for post in upcoming reversed %}
   <li>
-  <span>{{ post.date | date: "%B %e, %Y" }}</span> <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+  <span>{{ post.date | date: "%B %e, %Y" }}</span> <a href="{{ site.url }}{{ post.url }}">{{ post.title }} {% if post.author %} &ndash; {{ post.author }} {% endif %}</a> 
   </li>
   {% endfor %}
 </ul>

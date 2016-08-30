@@ -2,7 +2,7 @@
 layout: post
 title: Fall 2016 Kick-off
 author: Aaron Anderson
-category: upcoming
+category: posts
 tags: meeting 
 ---
 
