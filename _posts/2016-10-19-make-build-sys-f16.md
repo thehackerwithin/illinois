@@ -194,6 +194,12 @@ Many people like to mention that Make can be used for things other than compilin
 [Mike Bostock](https://bost.ocks.org/mike/make/) says, "Makefiles are machine-readable documentation that make your workflow reproducible". He suggests using them for downloading data, processing data, and making plots.
 
 
+## CMake
+
+Katy will start with [the official CMake 
+tutorial](https://cmake.org/cmake-tutorial/) and will then skim two examples of 
+real-world CMake use (Cyclus and HDF5). 
+
 ## Lightning Talks:
 
 ## Attendance
