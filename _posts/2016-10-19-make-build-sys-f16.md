@@ -2,7 +2,7 @@
 layout: post
 title: Make, CMake, Docker, & Vagrant - Making it easier to build software
 author: Gregory Hart, Katy Huff, Alex Lindsay
-category: upcoming
+category: posts
 tags: meeting,make,cmake,docker
 ---
 
