@@ -12,7 +12,7 @@ tags: meeting,practices
 * Location: [2000 NCSA][ncsa_map]
 
 ## Technical: Best Practices
-[Paul Yang][paul]
+[Paul Yang][paul] presents [best practices][bp] in scientific computing.
 
 <+Description Here+>
 
@@ -27,3 +27,4 @@ tags: meeting,practices
 
 [ncsa_map]: http://illinois.edu/map/view?skinId=0&ACTION=MAP&buildingId=564
 [paul]: {{site.url}}/_people/Yubo_Yang.html
+[bp]: https://github.com/thehackerwithin/illinois/blob/master/best_practices/best_practices.ipynb
