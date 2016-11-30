@@ -2,7 +2,7 @@
 layout: post
 title: Statistical Methods
 author: Andy Long, Nate ???
-category: upcoming
+category: posts
 tags: meeting,statistics
 ---
 

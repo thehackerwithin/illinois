@@ -2,7 +2,7 @@
 layout: post
 title: Best Practices
 author: Paul Yang, Aaron Anderson
-category: upcoming
+category: posts
 tags: meeting,practices
 ---
 
