@@ -41,15 +41,15 @@ When:
 
 Every second Wednesday (opposite CSE seminars): lunch - 11:30 AM, meeting - 12 PM. 
 
-- Aug 24
-- Sept 7
-- Sept 21
-- Oct 5
-- Oct 19
-- Nov 2
-- Nov 16
-- Nov 30
-- Dec 7
+**Spring 2017**
+- Jan 25
+- Feb 8
+- Feb 22
+- Mar 8
+- Mar 29
+- Apr 5
+- Apr 19
+- May 3
 
 How:
 -----
