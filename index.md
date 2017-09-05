@@ -41,20 +41,21 @@ When:
 
 Every second Wednesday (opposite CSE seminars): lunch - 11:30 AM, meeting - 12 PM. 
 
-**Spring 2017**
-- Jan 25
-- Feb 8
-- Feb 22
-- Mar 8
-- Mar 29
-- Apr 5
-- Apr 19
-- May 3
+- Sept 6 -- Kick-off meeting
+- Sept 20
+- Oct 4
+- Oct 18
+- Nov 1
+- Nov 15
+- Dec 6
+- Dec 20
 
 How:
 -----
 
 Participating is really easy.
+
+* At **11:30 am**, lunch is generously supplied by [CSE][cse]
 
 * At **12:00 pm**, we gather and go through a round of introductions.
 New faces are always appearing!
@@ -94,6 +95,7 @@ Other chapters:
 
   * [U. California-Berkeley](http://thehackerwithin.github.io/berkeley) (USA)
   * [U. Wisconsin-Madison](http://thehackerwithin.github.io/wisconsin) (USA)
+  * [UCLA](http://www.thehackerwithin.org/ucla/) (USA)
 
 <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}">Tweet</a>
 <a href="http://twitter.com/{{ site.twitter }}" class="twitter-follow-button" data-show-count="false">Follow @{{ site.twitter }}</a>
@@ -103,9 +105,9 @@ Other chapters:
 
 </section>
 
-[google_doc]: https://goo.gl/forms/KUVXSmGlDi0yT0Yz2
+[google_doc]: https://goo.gl/forms/bQgGLTz4lvfNtSGM2
 [ncsa_map]: http://illinois.edu/map/view?skinId=0&ACTION=MAP&buildingId=564
 [g-calendar]: https://www.google.com/calendar/embed?src=hacker.within.il%40gmail.com&ctz=America/Chicago
 [googleForm]: https://docs.google.com/forms/d/1MLw4UiMu3Q_jELYYJRkSgJF4MsZfeLIwfbUEC9-5PD4/viewform?usp=send_form
-[code]: http://www.codedoc.co/
+[cse]: http://cse.illinois.edu/
 [upcoming]: {{ site.url }}/upcoming.html
