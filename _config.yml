@@ -6,7 +6,7 @@ kramdown:
   input: GFM
   hard_wrap: false
   parse_block_html: true
-url: http://thehackerwithin.github.com/illinois
+url: http://www.thehackerwithin.org/illinois
 name: Hacker Within
 chapter: Illinois
 description: An initial blog and site for THW at UI at Urbana-Champaign
