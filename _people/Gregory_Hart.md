@@ -5,20 +5,20 @@ position: CSE Fellow
 page.category: people
 ---
 
-### Graduate Research Assistant
+# Graduate Research Assistant
 
 
 ---
 
-#Summary
+# Summary
 
 Working on a PhD is physics with research focused on using empirical fitness landscapes to design and test vaccines and threapies for HCV.
 
-#THW Talks
+# THW Talks
 
  - [Error Catastrophe -- HIV like melting ice][HIVerror]
 
-#Skills
+# Skills
 
 * FORTRAN 90
 * C++
@@ -27,49 +27,49 @@ Working on a PhD is physics with research focused on using empirical fitness lan
 * Python (2.7)
 * bash
 
-#Education
+# Education
 
-##_University of Illinois at Urbana-Champaign_
-###_PhD candidate_
+## _University of Illinois at Urbana-Champaign_
+### _PhD candidate_
  - [Andrew Ferguson Lab][fergusonlab]
 
-##_Brigham Young University_
-###_BS Physics (2012)_
+## _Brigham Young University_
+### _BS Physics (2012)_
 
-##_Brigham Young University--Idaho_
-###_AS General Studies (2009)_
+## _Brigham Young University--Idaho_
+### _AS General Studies (2009)_
 
 ---
 
 #Experience
 
-##_PH 213/214 - Thermal/Quantum Physics (UIUC)_
-###_Teaching Assistant_
+## _PH 213/214 - Thermal/Quantum Physics (UIUC)_
+### _Teaching Assistant_
 
 - Graduate Teacher Certificate from the Center for Innovation in Teaching and Learing
 - List of Teaching Assistants Ranked Outstanding
 
-##_PH 121/123/220 - Mechanics/Waves, Optics, and Thermodynamics/E&M (BYU)_
-###_Teaching Assistant_
+## _PH 121/123/220 - Mechanics/Waves, Optics, and Thermodynamics/E&M (BYU)_
+### _Teaching Assistant_
 
 - Outstading TA of the Semester Award (2011)
 - TopTen TA List (2010)
 
-##_Raytheon Missile Systems_
-###_Student Engineer_
+## _Raytheon Missile Systems_
+### _Student Engineer_
 
  - ESSM Simulation and Modeling Team (2013)
  - CIWS Radar Analysis Team (2011)
 
 
-#Honors
+# Honors
 
  - Computional Science and Engineering Fellowship
  - Best Paper Award, Physical Science Division
  - Edwin S. Hinckley Scholarship
  - Academic Merit Scholarships
 
-#Publications
+# Publications
 
  - G\. R. Hart, A. L. Ferguson, "Empirical Fitness Models for Hepatitis C Virus Immunogen Design" (submitted)
  - G\. R. Hart, A. L. Fergunson, "Error Catastrophe and Phase Transition in the Empirical Fitness Landscape of HIV" Physical Review E 9 032705 (2015)

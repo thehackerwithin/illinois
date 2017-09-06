@@ -5,7 +5,7 @@ position: president
 page.category: people
 ---
 
-### Graduate Research Assistant
+# Graduate Research Assistant
 
 [Personal Website][web]
 

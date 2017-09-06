@@ -5,19 +5,19 @@ position: member
 page.category: people
 ---
 
-### Graduate Research Assistant
+# Graduate Research Assistant
 
 
 ---
 
-#Summary
+# Summary
 
 Obtain a PhD in Physics with a research focus in Quantum Monte Carlo methods.
 
-#THW Talks
+# THW Talks
 
 
-#Skills
+# Skills
 
 * C++
 * LaTeX
@@ -25,29 +25,29 @@ Obtain a PhD in Physics with a research focus in Quantum Monte Carlo methods.
 * Python (2.7)
 * bash
 
-#Education
+# Education
 
-##_University of Illinois at Urbana-Champaign_
-###_PhD candidate_
+## _University of Illinois at Urbana-Champaign_
+### _PhD candidate_
  - [QMCPACK][http://qmcpack.org/]
 
-##_Denison University_
-###_BS Physics (2014)_
+## _Denison University_
+### _BS Physics (2014)_
 
-##_Denison University_
-###_BA Mathematics (2014)_
+## _Denison University_
+### _BA Mathematics (2014)_
 
 ---
 
-#Experience
+# Experience
 
-###_Teaching Assistant_
+### _Teaching Assistant_
 
 - Teachers marked as excellent
 
-#Honors
+# Honors
 
-#Publications
+# Publications
 
 
 
