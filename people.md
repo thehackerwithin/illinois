@@ -8,17 +8,15 @@ title: "Members of THW-IL"
 People
 ================
 
+Here are a list of active members with their biographical information, experiences, and expertise, inside and outside of THW.
+
 **Members of The Hacker Wihin-Illinois**
 
-<ul class="listing">
-{% assign people = (site.pages | where: "page.category" , "people") %}
-{% for person in people %}
-<li>
-<span>{{ person.position }}</span>
-<a href="{{ site.url }}{{ person.url }}">
-{{ person.title }} {% if person.position %} &ndash; {{ person.position }} {% endif %}
-</a></li>
-{% endfor %}
-</ul>
+* [Aaron T. Anderson](http://www.aarontanderson.com/ "Personal Website") - president
+* [Nathan Walter](mailto:walter9@illinois.edu "Email Nathan") - vice president
+* [Yubo Yang](mailto:yyang173@illinois.edu "Email Yubo")
 
-</section>
+**Faculty Advisors**
+
+* [Katy Huff](http://katyhuff.github.io/ "Personal Website") - NPRE
+* [Luke Olson](http://cs.illinois.edu/directory/profile/lukeo "CS Faculty Profile") - CS & CSE Director

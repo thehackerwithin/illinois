@@ -42,13 +42,15 @@ When:
 Every second Wednesday (opposite CSE seminars): lunch - 11:30 AM, meeting - 12 PM. 
 
 - Sept 6 -- Kick-off meeting
-- Sept 20
-- Oct 4
-- Oct 18
-- Nov 1
-- Nov 15
-- Dec 6
-- Dec 20
+- Sept 20 -- TensorFlow
+- Oct 4 -- databases
+- Oct 18 -- Sphinx documentation & Python packaging
+- Nov 1 -- natural language processing
+- Nov 15 -- Awesome Plots!
+- Dec 6 -- plotting (Matplotlib)
+- Dec 20 -- style guides
+
+Visit [Upcoming][upcoming] for descriptions
 
 How:
 -----
