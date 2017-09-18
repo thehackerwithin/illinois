@@ -1,6 +1,6 @@
 ---
 layout: post
-title: HDF5, SQL, WTF?
+title: Database Your Data
 author: Katy Huff
 category: upcoming
 tags: meeting 
