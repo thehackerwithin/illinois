@@ -52,6 +52,12 @@ Every second Wednesday (opposite CSE seminars): lunch - 11:30 AM, meeting - 12 P
 
 Visit [Upcoming][upcoming] for descriptions
 
+Where:
+-------
+
+NCSA room 2100
+1205 W Clark St, Urbana, IL
+
 How:
 -----
 
