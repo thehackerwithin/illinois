@@ -2,7 +2,7 @@
 layout: post
 title: Introduction to TensorFlow
 author: Mark Kamuda
-category: upcoming
+category: posts
 tags: meeting 
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: Awesome Plots!
 author: THW Members
-category: upcoming
+category: posts
 tags: meeting 
 ---
 
