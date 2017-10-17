@@ -56,7 +56,8 @@ Where:
 -------
 
 NCSA room 2100
-1205 W Clark St, Urbana, IL
+
+[1205 W Clark St, Urbana, IL][ncsa_map]
 
 How:
 -----
