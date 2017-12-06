@@ -2,7 +2,7 @@
 layout: post
 title: Natural Language Processing
 author: Mark Kamuda
-category: upcoming
+category: posts
 tags: meeting 
 ---
 
