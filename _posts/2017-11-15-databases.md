@@ -2,7 +2,7 @@
 layout: post
 title: Database Your Data
 author: Katy Huff
-category: upcoming
+category: posts
 tags: meeting 
 ---
 
