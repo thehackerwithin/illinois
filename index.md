@@ -9,7 +9,7 @@ The {{ site.name }}, {{ site.chapter }}
 ===================
 
 <ul class="listing">
-<li> <span>Fall 2017</span> <a href="{{ site.url }}/upcoming.html">Upcoming Topics</a></li>
+<li> <span>Spring 2018</span> <a href="{{ site.url }}/upcoming.html">Upcoming Topics</a></li>
 <li>  <a href="{{ site.url }}/previous.html">Previous Topics</a></li>
 </ul>
 
@@ -39,18 +39,18 @@ Anyone interested in software development best practices is welcome to come to o
 When:
 -----
 
-Every second Wednesday (opposite CSE seminars): lunch - 11:30 AM, meeting - 12 PM. 
+Every second Wednesday (approximately opposite CSE seminars): lunch - 11:30 AM, meeting - 12 PM. 
 
-- Sept 6 -- Kick-off meeting
-- Sept 20 -- TensorFlow
-- Oct 4 -- Awesome Plots!
-- Oct 18 -- Sphinx documentation & Python packaging
-- Nov 1 -- natural language processing
-- Nov 15 -- databases
-- Dec 6 -- plotting (Matplotlib)
-- Dec 20 -- style guides
+- Jan 17 -- Spring Kick-Off & Intro to Unit Testing in Python
+- Feb 7 --
+- Feb 21 -- 
+- Mar 7 --
+- Apr 4 --
+- Apr 18 --
 
 Visit [Upcoming][upcoming] for descriptions
+
+Lunch generously provided by [Computational Science & Engineering][cse]
 
 Where:
 -------
@@ -64,7 +64,7 @@ How:
 
 Participating is really easy.
 
-* At **11:30 am**, lunch is generously supplied by [CSE][cse]
+* At **11:30 am**, enjoy some lunch and meet other members
 
 * At **12:00 pm**, we gather and go through a round of introductions.
 New faces are always appearing!
