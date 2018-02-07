@@ -2,7 +2,7 @@
 layout: post
 title: Spring Kick-Off & Intro Python Unit Testing
 author: Nathan Walter
-category: upcoming
+category: posts
 tags: meeting 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: TBD
-author: TBD
+title: Game Engines for Scientific Visualizations
+author: Yubo "Paul" Yang
 category: upcoming
 tags: meeting 
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: TBD
-author: TBD
+title: Data Mining and Machine Learning
+author: Mark Kamuda and Jim Wilson
 category: upcoming
 tags: meeting 
 ---
@@ -10,7 +10,6 @@ tags: meeting
 ## Attending
 
 - <++>
-
 
 
 ## Bleeding Edge Stuff

@@ -18,10 +18,6 @@ tags: meeting
 
 ## Bleeding Edge Stuff
 
-Brand spanking new library is brand spanking new
-
-Code examples can be found [here][code].
-
 ## Lightning Talks 
 
 ## <+ person +> : <+ topic +>
@@ -29,4 +25,3 @@ Code examples can be found [here][code].
 ## <+ person +> : <+ topic +>
 
 
-[code]: {{ site.github.repository_url }}/tree/master/bleeding-edge-stuff

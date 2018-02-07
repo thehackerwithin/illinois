@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TBD
+title: Hardware and Software Accelerators
 author: TBD
 category: upcoming
 tags: meeting 
