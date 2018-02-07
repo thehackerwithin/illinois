@@ -42,11 +42,11 @@ When:
 Every second Wednesday (approximately opposite CSE seminars): lunch - 11:30 AM, meeting - 12 PM. 
 
 - Jan 17 -- Spring Kick-Off & Intro to Unit Testing in Python
-- Feb 7 --
-- Feb 21 -- 
-- Mar 7 --
-- Apr 4 --
-- Apr 18 --
+- Feb 7 -- C++ and Python Style Guides
+- Feb 21 -- Data Mining and Machine Learning
+- Mar 7 -- Make/CMake and git/Github
+- Apr 4 -- Game Engines for Scientific Visualizations
+- Apr 18 -- Hardware and Software Accelerators
 
 Visit [Upcoming][upcoming] for descriptions
 
