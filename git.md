@@ -5,10 +5,10 @@ A primer on using git version control by creating an upcoming meeting post.
 
 ## Install Git
 
-###Mac/Windows/Linux
+### Mac/Windows/Linux
 [Download](https://git-scm.com/downloads)
 
-###Ubuntu
+### Ubuntu
 
 ~~~
 $ sudo apt-get install git
@@ -18,7 +18,7 @@ $ sudo apt-get install git
 
 [Github](https://github.com/)
 
-###Fork the THW-Illinois code on Github:
+### Fork the THW-Illinois code on Github:
 
 [THW-Illinois](https://github.com/thehackerwithin/illinois)
 
@@ -67,7 +67,7 @@ $ git branch
 
 Now you have the entire THW-IL code for the website!
 
-###Have a look around:
+### Have a look around:
 
 ~~~
 $ ls
@@ -82,7 +82,7 @@ tags.md
 $ ls _posts/
 ~~~
 
-###Create a post
+### Create a post
 
 Copy a draft for a post for your up-coming talk:
 
@@ -90,7 +90,7 @@ Copy a draft for a post for your up-coming talk:
 $ cp _drafts/2999-12-31-template-upcoming.md _posts/2015-09-09-git-part-2.md
 ~~~
 
-###Edit the post
+### Edit the post
 
 ~~~
 $ vim _posts/2015-09-09-git-part-2.md
@@ -161,7 +161,7 @@ $ git commit --amend --reset-author
 
 The last command will open an editor for you to confirm the update.
 
-###Send to the clouds
+### Send to the clouds
 
 Now you can send your changes:
 
@@ -175,13 +175,13 @@ $ git push origin gh-pages
 
 ~~~
 
-###Pull Request
+### Pull Request
 
 Log on to Github account to see your repository and initiate a "**pull request**."
 
 Look at Github's help section on [comparing across branches](https://help.github.com/articles/comparing-commits-across-time/#comparing-across-forks).
 
-###Get updates
+### Get updates
 
 To keep your local repository up-to-date with the main repository you will need to add the main repository to your remote targets:
 
@@ -212,7 +212,7 @@ $ git pull thw-il gh-pages
 
 ---
 
-#Challenge
+# Challenge
 
 Create a personal page for yourself to add to the group's website.
 
@@ -226,15 +226,15 @@ $ vim _people/Steve-Wozniak.md
 
 Edit, commit, and push!
 
-##Congratulations!
+## Congratulations!
 
 You just contributed to an open source project!
 
-#Version control workflow
+# Version control workflow
 
 [Collaborating workflow](http://nvie.com/posts/a-successful-git-branching-model/)
 
-##Example: Sympy development - Feature addition
+## Example: Sympy development - Feature addition
 
 Steps:
 
@@ -293,7 +293,7 @@ changing public history is generally a bad idea). In summary, before
 contributing to an individual project, it's advisable to make yourself familiar
 with that project's policy.
 
-#Some final useful commands
+# Some final useful commands
 
 If you ever do something disastrous to your git controlled repository, say some
 bad invocation of `find -delete`, have no fear. Simply perform
