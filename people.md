@@ -10,7 +10,7 @@ People
 
 Here are a list of active members with their biographical information, experiences, and expertise, inside and outside of THW.
 
-**Members of The Hacker Wihin-Illinois**
+**Members of The Hacker Within-Illinois**
 
 * [Aaron T. Anderson](http://www.aarontanderson.com/ "Personal Website") - president
 * [Nathan Walter](mailto:walter9@illinois.edu "Email Nathan") - vice president
