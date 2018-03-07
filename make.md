@@ -4,12 +4,12 @@ Make Introduction
 Make is software that allows you to carry out a series of tasks in a way that respects the dependencies amongst files or tasks. While it was develovoped for bulding software (i.e. compiling C++ code, linking the files, and placing the executable) It can be used for more then that. The Make manual states "You can use make with any programming language whose compiler can be run with a shell command. Indeed, make is not limited to programs. You can use it to describe any task where some files must be updated automatically from others whenever the others change." I will cover the basics of Make and give an idea of how powerful and complex it can be.
 
 
-###Basic Makefile
+### Basic Makefile
 
 Here is a basic make file:
 
-~~~
-$cat Makefile
+```make
+$ cat Makefile
 test: test.o anotherTest.o
         gcc -Wall test.o anotherTest.o -o test
 
@@ -21,52 +21,56 @@ anotherTest.o: anotherTest.c
 
 clean:
         rm -rf *.o test
-~~~
+```
 
 Now running make will compile both .c files and link them into the executable test:
 
-~~~
-$make
+```bash
+$ make
 gcc -c -Wall test.c
 gcc -c -Wall anotherTest.c
 gcc -Wall test.o anotherTest.o -o test
-~~~
+```
 
-Here is what is happening. When you run make it looks for a file named Makefile in the current directory and looks at the first target (thing/name on the left of the colon). It then "makes" this target by running the associated command(s) (the indented line(s) following the target) after checking the prerequisites (the things/names after the colon).This checking can lead to other targets being made.
+Here is what is happening. When you run `make` it looks for a file named `Makefile` in the current directory and looks at the first _"target"_ (thing/name on the left of the colon). It then "makes" this target by running the associated command(s) (the indented line(s) following the target - TABs are important!) after checking the prerequisites (the things/names after the colon).This checking can lead to other targets being made.
 
-Here specifically the target test depends on test.o and anotherTest.o so make checks for files/targets with these names. It finds the targets test.o and anotherTest.o and then checks their prerequisites test.c and anotherTest.c, but there are no targets for test.c or anotherTest.c so the rules are executed. Make checks if test.o's time stape is older then test.c's since test.o doesn't exist its timestamp is older and the rule is run (the indented lines executed). The same happens for anotherTest.o. With these prerequistites taken care of make goes back to the rule for test and rule it since test is "older" then it's prerequisites.
+Here specifically the target test depends on `test.o` and `anotherTest.o` so make checks for files/targets with these names. It finds the targets `test.o` and `anotherTest.o` and then checks their prerequisites `test.c` and `anotherTest.c`, but there are no targets for `test.c` or `anotherTest.c` so the rules are executed. Make checks if `test.o`'s time stape is older then `test.c`'s since `test.o` doesn't exist its timestamp is older and the rule is run (the indented lines executed). The same happens for `anotherTest.o`. With these prerequistites taken care of make goes back to the rule for test and rule it since test is "older" than its prerequisites.
 
 Since rules are only executed if the prerequites have changed since the target was made if we run make again nothing will happen:
 
-~~~
-$make
+```bash
+$ make
 make: Nothing to be done for `test'.
-~~~
+```
 
 Make makes incremental builds by only building targets if something changed that effects them. For example if we edit test.c and run make:
 
-~~~
+```bash
 $ make
 gcc -c -Wall test.c
 gcc -Wall test.o anotherTest.o -o test
-~~~
+```
 
 anotherTest.o isn't recompiled because the changes to test.c do not affect it. For this simple example this is not a big deal, but for more complicated projects this can save a lot of time.
 
-Make automatically builds the first target in the file. However you can specify the target by listing it after make (i.e. make clean). It is very common to have a makefile (such as this exmaple) with a target executable and a clean target that deletes the executable and all the .o files. Often clean is used if you want to rebuild everything regradless of when files were edited, however the -B option unconditionally makes all targets. If your makefile is not named Makefile use -f __file__. If your makefile (and everything else) is not in the working directory use -C __dir__. Make will actually switch to this directory and run then switch back. 
+Make automatically builds the first target in the file. However you can specify the target by listing it after make (_i.e._ `make clean`). It is very common to have a makefile (such as this exmaple) with a target executable and a clean target that deletes the executable and all the `.o` files. Often clean is used if you want to rebuild everything regradless of when files were edited, however the `-B` option unconditionally makes all targets. If your makefile is not named `Makefile` use <code>-f __file__</code>. If your makefile (and everything else) is not in the working directory use <code>-C __dir__</code>. Make will actually switch to this directory and run then switch back. 
 
-###Adding variables
+### Adding variables
 
 In a makefile you can use varibles. The are declered like this:
 
+```make
 CXX = g++
+```
 
 and are used like this:
 
+```make
 $(CXX)
+```
 
-~~~
-$cat Makefile
+```bash
+$ cat Makefile
 CC = gcc
 Warnings = -Wall
 
@@ -81,14 +85,14 @@ anotherTest.o: anotherTest.c
 
 clean:
         rm -rf *.o test
-~~~
+```
 
-With these varables we only have to edit one line if we want to change the compiler or turn off the warnings by commenting out the line that defines Warnings. Alternately we could add a -g to the variable Warnings if we wanted to debug our code.
+With these varables we only have to edit one line if we want to change the compiler or turn off the warnings by commenting out the line that defines Warnings. Alternately we could add a `-g` to the variable Warnings if we wanted to debug our code.
 
 There are magic variables that are important to know about. The above file could be rewritten as:
 
-~~~
-$cat Makefile
+```bash
+$ cat Makefile
 CC = gcc
 Warnings = -Wall
 
@@ -103,15 +107,15 @@ anotherTest.o: anotherTest.c
 
 clean:
         rm -rf *.o test
-~~~
+```
 
-Here $@ becomes the target, $< is the first prerequesite, and $^ is all the prerequisites. This has made the file less readable, but doesn't offer any benefit in this simiple example.
+Here `$@` becomes the target, `$<` is the first prerequesite, and `$^` is all the prerequisites. This has made the file less readable, but doesn't offer any benefit in this simiple example.
 
-###A More complicated example
+### A More complicated example
 
 Here is a "real" makefile based on one from my research:
 
-~~~
+```make
 CXX = g++
 DEBUG = n
 USE_OMP = n
@@ -156,13 +160,15 @@ depends :
 
 #include the file created by the above target
 include depend.mk
+```
 
-$cat depend.mk
+```bash
+$ cat depend.mk
 main.o: main.cpp main.h functions.h ran2.h mersenne.h grid.h blas.h lapack.h
 functions.o: functions.cpp functions.h ran2.h
 ran2.o: ran2.cpp ran2.h
 mersenne.o: mersenne.cpp mersenne.h
 grid.o: grid.cpp grid.h
-~~~
+```
 
-Here I am defining a number of variables to set the compiler and compiler flags. Then I create a list of all the .cpp files in this directory and create a corresponding list of .o files. Next is the target for the executable. The next is strange but powerful. Here the % acts as a wildcard and we get a target for very .cpp file in the directory. This way we do not have to write out the rules for each file. It does not matter if the number of files change. We will have a rule for each one. Next I have the standard clean target. Next is a line creating a seperate file with depences and then an include line to include this file.
+Here I am defining a number of variables to set the compiler and compiler flags. Then I create a list of all the `.cpp` files in this directory and create a corresponding list of `.o` files. Next is the target for the executable. The next is strange but powerful. Here the `%` acts as a wildcard and we get a target for very `.cpp` file in the directory. This way we do not have to write out the rules for each file. It does not matter if the number of files change. We will have a rule for each one. Next I have the standard clean target. Next is a line creating a seperate file with depences and then an include line to include this file.
