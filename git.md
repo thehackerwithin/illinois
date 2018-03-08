@@ -10,9 +10,9 @@ A primer on using git version control by creating an upcoming meeting post.
 
 ### Ubuntu
 
-~~~
+```
 $ sudo apt-get install git
-~~~
+```
 
 ## Create account on Github
 
@@ -28,34 +28,34 @@ $ sudo apt-get install git
 
 Grab your forked version
 
-~~~
+```
 $ git clone https://github.com/aaronta/illinois.git
 
 $ cd illinois
-~~~
+```
 
 In order to access the "gh-pages," where the website files are located, you need to make the branch with the content visible:
 
-~~~
+```
 $ git branch
 
 * master
-~~~
+```
 
 This only shows the "master" branch but the "-a" flag shows all available. The only one we are interested in is the "remotes/origin/gh-pages"
 
-~~~
+```
 $ git branch -a
 
 * master
   remotes/origin/HEAD -> origin/master
   remotes/origin/gh-pages
   remotes/origin/master
-~~~
+```
 
 Now add it to the visible branches and *checkout* gh-pages:
 
-~~~
+```
 $ git checkout -b gh-pages origin/gh-pages
 
 $ git branch
@@ -63,13 +63,13 @@ $ git branch
 * gh-pages
   master
 
-~~~
+```
 
 Now you have the entire THW-IL code for the website!
 
 ### Have a look around:
 
-~~~
+```
 $ ls
 
 404.md		README.md		_config_dev.yml		_includes
@@ -80,19 +80,19 @@ css			images			js					previous.md
 tags.md
 
 $ ls _posts/
-~~~
+```
 
 ### Create a post
 
 Copy a draft for a post for your up-coming talk:
 
-~~~
+```
 $ cp _drafts/2999-12-31-template-upcoming.md _posts/2015-09-09-git-part-2.md
-~~~
+```
 
 ### Edit the post
 
-~~~
+```
 $ vim _posts/2015-09-09-git-part-2.md
 
 $ git status
@@ -106,37 +106,37 @@ Untracked files:
         _posts/2015-09-09-git-part-2.md
 
 nothing added to commit but untracked files present (use "git add" to track)
-~~~
+```
 
 The output from git is verbose but can be shorted
 
-~~~
+```
 $ git status -s
 ?? _posts/2015-09-09-git-part-2.md
-~~~
+```
 
 If you have the right dependencies installed you can inspect your web-site
 change by running
 
-~~~
-jekyll serve
-~~~
+```
+$ bundle exec jekyll serve
+```
 
 and navigating [here](http://localhost:4000/posts/git-part2)
 
 If satisfied with your changes, commit the changes locally:
 
-~~~
+```
 $ git add _posts/2015-09-09-git-part-2.md
 
 $ git status -s
 
 $ git commit -m "Sept 9: Git part 2"
-~~~
+```
 
 If it's your first time running a commit, you will get something like:
 
-~~~
+```
 Your name and email address were configured automatically based
 on your username and hostname. Please check that they are accurate.
 You can suppress this message by setting them explicitly:
@@ -149,15 +149,15 @@ After doing this, you may fix the identity used for this commit with:
     git commit --amend --reset-author
 
  1 file changed, 1 insertion(+)
-~~~
+```
 
 Follow the instructions to update your information:
 
-~~~
+```
 $ git config --global user.name "Aaron Anderson"
 $ git config --global user.email "aandrsn3@illinois.edu"
 $ git commit --amend --reset-author
-~~~
+```
 
 The last command will open an editor for you to confirm the update.
 
@@ -165,7 +165,7 @@ The last command will open an editor for you to confirm the update.
 
 Now you can send your changes:
 
-~~~
+```
 $ git remote -v
 
 origin  https://github.com/aaronta/illinois.git (fetch)
@@ -173,7 +173,7 @@ origin  https://github.com/aaronta/illinois.git (push)
 
 $ git push origin gh-pages
 
-~~~
+```
 
 ### Pull Request
 
@@ -185,7 +185,7 @@ Look at Github's help section on [comparing across branches](https://help.github
 
 To keep your local repository up-to-date with the main repository you will need to add the main repository to your remote targets:
 
-~~~
+```
 $ git remote add thw-il https://github.com/thehackerwithin/illinois.git
 
 $ git remote -v
@@ -194,11 +194,11 @@ origin  https://github.com/aaronta/illinois.git (fetch)
 origin  https://github.com/aaronta/illinois.git (push)
 thw-il  https://github.com/thehackerwithin/illinois.git (fetch)
 thw-il  https://github.com/thehackerwithin/illinois.git (push)
-~~~
+```
 
 To retrieve the newest updates to the gh-pages branch, first make sure you are on the gh-pages branch:
 
-~~~
+```
 $ git branch
 
   gh-pages
@@ -207,7 +207,7 @@ $ git branch
 $ git checkout gh-pages
 
 $ git pull thw-il gh-pages
-~~~
+```
 
 
 ---
@@ -216,13 +216,13 @@ $ git pull thw-il gh-pages
 
 Create a personal page for yourself to add to the group's website.
 
-~~~
+```
 $ ls _people
 
 $ cp _people/Aaron-Anderson.md _people/Steve-Wozniak.md
 
 $ vim _people/Steve-Wozniak.md
-~~~
+```
 
 Edit, commit, and push!
 
@@ -243,9 +243,9 @@ Steps:
 - Checkout local branch for feature development (may reference issue number, say
   issue #1234)
 
-~~~
-git checkout -b fancy_integration_routine_1234
-~~~
+```
+$ git checkout -b fancy_integration_routine_1234
+```
 
 - When finished, push to your Sympy fork, and then issue a pull request to the
   master branch of the Sympy project with a tag for the issue it addresses
@@ -258,22 +258,22 @@ time, during which the Sympy project is being continually developed. Perhaps
 some changes were added to the master branch that you want to be able to use in
 your feature. How to incorporate these additions? A couple of options:
 
-~~~
-git fetch upstream
-git branch -f master upstream/master
-git merge master
-~~~
+```
+$ git fetch upstream
+$ git branch -f master upstream/master
+$ git merge master
+```
 
 This is the "safe" development option. Commit history is always
 preserved. However, if feature development goes on for a long time and many
 upstream merge commits are made, the history becomes a bit polluted and it
 becomes harder for final PR reviewers to navigate. The second option is:
 
-~~~
-git fetch upstream
-git branch -f master upstream/master
-git rebase -i master
-~~~
+```
+$ git fetch upstream
+$ git branch -f master upstream/master
+$ git rebase -i master
+```
 
 This will make your development history look "nice" and linear; there are no
 extraneous merge commits from upstream in your feature's development
@@ -298,24 +298,24 @@ with that project's policy.
 If you ever do something disastrous to your git controlled repository, say some
 bad invocation of `find -delete`, have no fear. Simply perform
 
-~~~
-git reset --hard HEAD
-~~~
+```
+$ git reset --hard HEAD
+```
 
 This will restore your repository to the state of it's last commit
 message. Variations of the `git reset` command can also be useful for moving
 around commits. For instance if you wanted to go back two commits, you could
 perform:
 
-~~~
-git reset --hard HEAD~2
-~~~
+```
+$ git reset --hard HEAD`2
+```
 
 or
 
-~~~
-git reset --hard <commit-hash>
-~~~
+```
+$ git reset --hard <commit-hash>
+```
 
 Git will warn you that you're in a detached HEAD state (e.g. there are no branch
 pointers in-line with HEAD). Moving around commits in this way can be useful
@@ -326,17 +326,23 @@ maintainers this should never happen...but it's happened to me).
 
 For viewing commit and branch history, my favorite command is
 
-~~~
-git log --oneline --decorate --graph --all
-~~~
+```
+$ git log --oneline --decorate --graph --all
+```
 
 Additionally, if you want to only know the commits that have touched a certain
 file or sub-directory, you can add the `-- <file>` option at the end of
 `git log`. For example, you can run this in the THW website repository (on
 branch gh-pages):
 
-~~~
-git log --oneline --decorate --graph --all -- _posts
-~~~
+```
+$ git log --oneline --decorate --graph --all -- _posts
+```
+
+Update: The cleanest way I have found to view history is using [this alias](http://lagrange.mechse.illinois.edu/git_quick_ref/):
+
+```
+$ git config --global alias.la "log --all --graph --date=short --format=format:\"%C(yellow)%h%Creset %ad%Cred%d %Cblue%an%Creset %s\""
+```
 
 Now go out and conquer the world one open source repo at a time :smile:
