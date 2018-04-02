@@ -9,11 +9,11 @@ tags: meeting
 ## Presentation
 
   - Fermi surface from quantum Monte Carlo (QMC).
-  ![fermi surface]({{ "/images/fermi_sea.png" | absolute_url}})
+  ![fermi surface](../images/fermi_sea.png)
   - normal mode from density functional theory (DFT).
-  ![normal mode]({{ "/images/mode4.gif" | absolute_url }})
+  ![normal mode](../images/mode4.gif)
   - particle trajectories from molecular dynamics (MD).
-  ![lennard jones]({{ "/images/lj_3bd.png" | absolute_url }})
+  ![lennard jones](../images/lj_3bd.png)
 
 ## Tutorials
   
