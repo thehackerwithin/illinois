@@ -9,11 +9,11 @@ tags: meeting
 ## Presentation
 
   - Fermi surface from quantum Monte Carlo (QMC).
-  ![fermi surface][fermi surface]
+  ![fermi surface]({{ "/images/fermi_sea.png" | absolute_url}})
   - normal mode from density functional theory (DFT).
-  ![normal mode][normal mode]
+  ![normal mode]({{ "/images/mode4.gif" | absolute_url }})
   - particle trajectories from molecular dynamics (MD).
-  ![lennard jones][lennard jones]
+  ![lennard jones]({{ "/images/lj_3bd.png" | absolute_url }})
 
 ## Tutorials
   
@@ -29,10 +29,6 @@ tags: meeting
   - [Star Wars][Star Wars]
   - [Wheat Field][Wheat Field]
   - [Interior Design][Interior Design]
-
-[fermi surface]:"fermi_sea.png"
-[normal mode]:"mode4.gif"
-[lennard jones]:"lj_3bd.png"
 
 [lighting]: https://youtu.be/kFaEf8V8XYY?t=802
 [flaming chairs]: https://youtu.be/pdjFm7YA8vI?t=181
