@@ -6,19 +6,41 @@ category: upcoming
 tags: meeting 
 ---
 
+## Presentation
 
-## Attending
+  - Fermi surface from quantum Monte Carlo (QMC).
+  ![fermi surface][fermi surface]
+  - normal mode from density functional theory (DFT).
+  ![normal mode][normal mode]
+  - particle trajectories from molecular dynamics (MD).
+  ![lennard jones][lennard jones]
 
-- <++>
+## Tutorials
+  
+  - [lighting][lighting] the scene
+  - throw some [flaming chairs][flaming chairs]
+  - make [tables][table rain] rain from the sky
+  - explode some [cows][explode cows]
+  - make [birds fly][birds fly]
 
+## State of Unreal
 
+  - [Siren][Siren]
+  - [Star Wars][Star Wars]
+  - [Wheat Field][Wheat Field]
+  - [Interior Design][Interior Design]
 
-## Bleeding Edge Stuff
+[fermi surface]:"fermi_sea.png"
+[normal mode]:"mode4.gif"
+[lennard jones]:"lj_3bd.png"
 
+[lighting]: https://youtu.be/kFaEf8V8XYY?t=802
+[flaming chairs]: https://youtu.be/pdjFm7YA8vI?t=181
+[table rain]: https://youtu.be/PpVfL2OhkmI?t=248
+[explode cows]:https://youtu.be/9-7SmkasS_A?t=1241
+[birds fly]:https://youtu.be/NSHlKxqoc9s?t=252
 
-## Lightning Talks 
-
-## <+ person +> : <+ topic +>
-
-## <+ person +> : <+ topic +>
-
+[Siren]:https://youtu.be/jwKeLsTG12A?t=999
+[Star Wars]:https://youtu.be/jwKeLsTG12A?t=2391
+[Wheat Field]:https://www.youtube.com/watch?v=r5cf0-q3ikA
+[Interior Design]:https://youtu.be/E3LtFrMAvQ4?t=453
