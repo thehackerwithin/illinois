@@ -114,7 +114,7 @@ Other chapters:
 
 </section>
 
-[google_doc]: https://goo.gl/forms/bQgGLTz4lvfNtSGM2
+[google_doc]: https://docs.google.com/forms/d/e/1FAIpQLSdl5AlSMBRLrz5U7vA8G_vwiW7wYH0sF7ebeLJ-Xuhq2lzhqg/viewform?usp=pp_url
 [ncsa_map]: http://illinois.edu/map/view?skinId=0&ACTION=MAP&buildingId=564
 [g-calendar]: https://www.google.com/calendar/embed?src=hacker.within.il%40gmail.com&ctz=America/Chicago
 [googleForm]: https://docs.google.com/forms/d/1MLw4UiMu3Q_jELYYJRkSgJF4MsZfeLIwfbUEC9-5PD4/viewform?usp=send_form
