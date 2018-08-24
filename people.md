@@ -12,8 +12,9 @@ Here are a list of active members with their biographical information, experienc
 
 **Members of The Hacker Within-Illinois**
 
-* [Aaron T. Anderson](http://www.aarontanderson.com/ "Personal Website") - president
+* [Mark Kamuda](mailto:kamuda1@illinois.edu "Email Mark") - president
 * [Nathan Walter](mailto:walter9@illinois.edu "Email Nathan") - vice president
+* [Aaron T. Anderson](http://www.aarontanderson.com/ "Personal Website") - advisor
 * [Yubo Yang](mailto:yyang173@illinois.edu "Email Yubo")
 
 **Faculty Advisors**
