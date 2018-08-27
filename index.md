@@ -39,14 +39,16 @@ Anyone interested in software development best practices is welcome to come to o
 When:
 -----
 
-Every second Wednesday (approximately opposite CSE seminars): lunch - 11:30 AM, meeting - 12 PM. 
+Every first and third Wednesday of the month: lunch - 11:30 AM, meeting - 12 PM. 
 
-- Jan 17 -- Spring Kick-Off & Intro to Unit Testing in Python
-- Feb 7 -- C++ and Python Style Guides
-- Feb 21 -- Data Mining and Machine Learning
-- Mar 7 -- Make/CMake and git/Github
-- Apr 4 -- Game Engines for Scientific Visualizations
-- Apr 18 -- Hardware and Software Accelerators
+- Aug 29 -- Spring Kick-Off & Intro to Python Packaging
+- Sept 5 -- TBD
+- Sept 19 -- TBD
+- Oct 3 -- TBD
+- Oct 17 -- TBD
+- Nov 7 -- TBD
+- Dec 5 -- TBD
+- Dec 19 -- TBD
 
 Visit [Upcoming][upcoming] for descriptions
 
@@ -114,7 +116,7 @@ Other chapters:
 
 </section>
 
-[google_doc]: https://goo.gl/forms/bQgGLTz4lvfNtSGM2
+[google_doc]: https://docs.google.com/forms/d/e/1FAIpQLSdl5AlSMBRLrz5U7vA8G_vwiW7wYH0sF7ebeLJ-Xuhq2lzhqg/viewform?usp=pp_url
 [ncsa_map]: http://illinois.edu/map/view?skinId=0&ACTION=MAP&buildingId=564
 [g-calendar]: https://www.google.com/calendar/embed?src=hacker.within.il%40gmail.com&ctz=America/Chicago
 [googleForm]: https://docs.google.com/forms/d/1MLw4UiMu3Q_jELYYJRkSgJF4MsZfeLIwfbUEC9-5PD4/viewform?usp=send_form
