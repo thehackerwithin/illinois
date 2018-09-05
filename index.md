@@ -41,14 +41,14 @@ When:
 
 Every first and third Wednesday of the month: lunch - 11:30 AM, meeting - 12 PM. 
 
-- Aug 29 -- Spring Kick-Off & Intro to Python Packaging
-- Sept 5 -- TBD
-- Sept 19 -- TBD
-- Oct 3 -- TBD
-- Oct 17 -- TBD
-- Nov 7 -- TBD
-- Dec 5 -- TBD
-- Dec 19 -- TBD
+- Aug 29 -- Spring Kick-Off & Intro to Python Packaging - Mark Kamuda
+- Sept 5 -- Intro to Python & Python Tips - Jon Drobny
+- Sept 19 -- Intro to GitHub & Jekyll - Josh and Mark Kamuda
+- Oct 3 -- Data Science & Machine learning - Cail, Cassidy, and Shubhang Goswami 
+- Oct 17 -- Automated Documentation & Software Testing - Shane Keniley and Nate Walter
+- Nov 7 -- Data Visualization - Mark Kamuda
+- Dec 5 -- Containerization - Yubo "Paul" Yang
+- Dec 19 -- Advanced Data Visualization - TBD
 
 Visit [Upcoming][upcoming] for descriptions
 
