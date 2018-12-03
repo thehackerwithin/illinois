@@ -2,7 +2,7 @@
 layout: post
 title: Advanced Data Visualization
 author: TBD
-category: posts
+category: upcoming
 tags: meeting
 ---
 
