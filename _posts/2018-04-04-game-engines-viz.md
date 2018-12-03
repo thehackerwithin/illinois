@@ -2,8 +2,8 @@
 layout: post
 title: Game Engines for Scientific Visualizations
 author: Yubo "Paul" Yang
-category: upcoming
-tags: meeting 
+category: posts
+tags: visualization, unreal
 ---
 
 ## Presentation

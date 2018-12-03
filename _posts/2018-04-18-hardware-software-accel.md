@@ -2,7 +2,7 @@
 layout: post
 title: Hardware and Software Accelerators
 author: TBD
-category: upcoming
+category: posts
 tags: meeting 
 ---
 
