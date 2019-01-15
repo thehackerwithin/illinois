@@ -8,7 +8,7 @@ title: "Upcoming Topics"
 Upcoming Topics
 ================
 
-**Spring 2018**
+**Spring 2019**
 
 The Hacker Within will explore the following tentative set of topics in
 Spring 2019. In addition to these topics, Lightning Talks are welcome at the
