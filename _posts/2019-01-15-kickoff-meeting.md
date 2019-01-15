@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Kickoff Meeting
-author: Makr Kamuda
+author: Mark Kamuda
 category: upcoming
 tags: meeting
 ---
