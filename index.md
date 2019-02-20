@@ -42,13 +42,13 @@ When:
 Every first and third Wednesday of the month: lunch - 11:30 AM, meeting - 12 PM. 
 
 - Jan 16 -- Spring Kick-Off - Mark Kamuda
-- Feb 6 -- Data Visualization Showcase
-- Feb 20 -- TBD
-- March 6 -- TBD 
-- March 20 -- TBD
-- April 3 -- TBD
-- April 17 -- TBD
-- May 1 -- TBD
+- Feb 6 -- Data Visualization Showcase - Cail Daley and Yubo "Paul" Yang
+- Feb 20 -- Posting to Git and Heritage Code Review - Mark Kamuda
+- March 6 -- Optimizing Code and Esoteric Programming Languages – Josh Vita and Jon Drobny 
+- March 20 -- Jupyter Lab and Advanced Data Structures – Cassidy Wagner and Cail Daley
+- April 3 -- Computer Security – TBD
+- April 17 -- Python as Glue and Object Oriented Programming – Paul 'Yubo' Yang and Josh Vita
+- May 1 -- Research Showcase – TBD
 
 Visit [Upcoming][upcoming] for descriptions
 
