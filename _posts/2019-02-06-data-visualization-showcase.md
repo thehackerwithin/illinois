@@ -1,28 +1,24 @@
 ---
 layout: post
 title: Data Visualization Showcase
-author: Cail Daley and Yubo "Paul" Yang
-category: posts
+author: TBD
+category: upcoming
 tags: meeting
 ---
 
 
 ## Data Visualization Showcase
 
-In this meeting, Cail Daley and Yubo "Paul" Yang share how they visualize data (in and out of their own work).
+In this meeting, a few hackers will share how they visualize data (in and out of their own work) in a series of 5-min lightning talks and 15-min presentations.
 
 ### Visualize 3D scatter data
 
 [presentation][1]
 
-example 1: ![rotate colored scatter][https://github.com/thehackerwithin/illinois/blob/master/scatter3d/figures/crystal.gif]
+example 1: ![rotate colored scatter](https://github.com/thehackerwithin/illinois/blob/master/scatter3d/figures/crystal-scatter3d.gif)
 
-example 2: breathing isosurface
+example 2: ![breathing isosurface](https://github.com/thehackerwithin/illinois/blob/master/scatter3d/figures/crystal.gif)
 
-example 3: scanning 2D slice
-
-
-
-
+example 3: ![scanning 2D slice](https://github.com/thehackerwithin/illinois/blob/master/scatter3d/figures/crystal-scan.gif)
 
 [1]: https://github.com/thehackerwithin/illinois/blob/master/scatter3d/scatter3d.pdf
