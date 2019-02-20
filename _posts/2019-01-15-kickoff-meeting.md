@@ -2,7 +2,7 @@
 layout: post
 title: Kickoff Meeting
 author: Mark Kamuda
-category: previous
+category: posts
 tags: meeting
 ---
 

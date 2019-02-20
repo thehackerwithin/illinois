@@ -2,7 +2,7 @@
 layout: post
 title: Data Visualization Showcase
 author: TBD
-category: previous
+category: posts
 tags: meeting
 ---
 
