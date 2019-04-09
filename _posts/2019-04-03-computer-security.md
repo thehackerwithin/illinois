@@ -1,12 +1,13 @@
 ---
 layout: post
-title: Computer Security
-author: TBD
-category: upcoming
+title: Python Coding Challenge and Hacking Hour
+author: Mark Kamuda
+category: posts
 tags: meeting
 ---
 
-## Computer Security
+## Python Coding Challenge
 
-How should you keep your ssh keys secure? What happens if they get online? What anti-virus software do you really need? Are macs and Linux machines really virus-proof? Find the answer to these questions and more in this talk.
+There is no tutorial or formal discussion scheduled for this week. Instead, there will be a [coding challenge][coding challenge]. Challenge participants will receive a special prize from GitHub! This time can also be used to discuss previous THW sessions, discuss and work on personal projects, and get advice on any programming issues.
 
+[ml_presentation]: http://pythonchallenge.com
