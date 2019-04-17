@@ -1,15 +1,15 @@
 ---
 layout: post
 title: Data Visualization Showcase
-author: TBD
-category: upcoming
+author: Cail Daley and Yubo "Paul" Yang
+category: posts
 tags: meeting
 ---
 
 
 ## Data Visualization Showcase
 
-In this meeting, a few hackers will share how they visualize data (in and out of their own work) in a series of 5-min lightning talks and 15-min presentations.
+In this meeting, Cail Daley and Yubo "Paul" Yang share how they visualize data (in and out of their own work).
 
 ### Visualize 3D scatter data
 
