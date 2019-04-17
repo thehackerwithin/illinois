@@ -15,14 +15,10 @@ In this meeting, Cail Daley and Yubo "Paul" Yang share how they visualize data (
 
 [presentation][1]
 
-example 1: ![rotate colored scatter][https://github.com/thehackerwithin/illinois/blob/master/scatter3d/figures/crystal.gif]
+example 1: ![rotate colored scatter](https://github.com/thehackerwithin/illinois/blob/master/scatter3d/figures/crystal-scatter3d.gif)
 
-example 2: breathing isosurface
+example 2: ![breathing isosurface](https://github.com/thehackerwithin/illinois/blob/master/scatter3d/figures/crystal.gif)
 
-example 3: scanning 2D slice
-
-
-
-
+example 3: ![scanning 2D slice](https://github.com/thehackerwithin/illinois/blob/master/scatter3d/figures/crystal-scan.gif)
 
 [1]: https://github.com/thehackerwithin/illinois/blob/master/scatter3d/scatter3d.pdf
