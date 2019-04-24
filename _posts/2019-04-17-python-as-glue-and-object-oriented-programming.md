@@ -11,5 +11,6 @@ Python is one of the most versatile and popular languages for scientific computi
 
 ## Object Oriented Programming
 
+Object Oriented Programming (OOP) is a widely-used programming paradigm that emphasizes writing modular, flexible code. In today's talk we'll discuss some of the key concepts and advantages of OOP, with some concrete examples in Python.
 
 [1]: https://github.com/thehackerwithin/illinois/blob/master/python-as-glue/python-as-glue.pdf
