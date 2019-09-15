@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Optimizing Code and Esoteric Programming Languages 
-author: Josh Vita and Jon Drobny 
-category: upcoming
+title: Optimizing Code and Esoteric Programming Languages
+author: Josh Vita and Jon Drobny
+category: posts
 tags: meeting
 ---
 
@@ -12,11 +12,10 @@ Is your code full of nested for-loops? There's a better way! In this presentatio
 
 
 
-## Terrible Programming Languages 
+## Terrible Programming Languages
 Why do esoteric programming languages exist? What does it look like to use a few of them? Find out in this presentation!
 
 <code>HAI</code>
 <code>CAN HAS STDIO?</code>
 <code>VISIBLE "HAI WORLD!"</code>
 <code>KTHXBYE</code>
-

@@ -39,16 +39,15 @@ Anyone interested in software development best practices is welcome to come to o
 When:
 -----
 
-Every first and third Wednesday of the month: lunch - 11:30 AM, meeting - 12 PM. 
+Every first and third Wednesday of the month: lunch - 11:30 AM, meeting - 12 PM.
 
-- Jan 16 -- Spring Kick-Off - Mark Kamuda
-- Feb 6 -- Data Visualization Showcase - Cail Daley and Yubo "Paul" Yang
-- Feb 20 -- Posting to Git and Heritage Code Review - Mark Kamuda
-- March 6 -- Optimizing Code and Esoteric Programming Languages – Josh Vita and Jon Drobny 
-- March 20 -- Jupyter Lab and Advanced Data Structures – Cassidy Wagner and Cail Daley
-- April 3 -- Computer Security – TBD
-- April 17 -- Python as Glue and Object Oriented Programming – Paul 'Yubo' Yang and Josh Vita
-- May 1 -- Research Showcase – TBD
+- Sep 18 -- **Intro to THW git / Personal websites** - Joshua Yao-Yu Lin and Anshuman Chaube
+- Oct 2 -- **Reproducibility / Workflow ** - Cassidy Wagner
+- Oct 16 -- **Data visualization ** - Patrick Aleo and Alex Gagliano
+- Nov 6 -- **Code Challenges ** - Shubhang Goswami
+- Nov 20 -- **Parallelization ** - Cail Daley and Paul 'Yubo' Yang
+- Dec 4 -- **Professional Career Opportunities** - Invited speakers (TBD)
+
 
 Visit [Upcoming][upcoming] for descriptions
 

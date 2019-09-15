@@ -2,7 +2,7 @@
 layout: post
 title: Posting to Git and Heritage Code Review
 author: Mark Kamuda
-category: upcoming
+category: posts
 tags: meeting
 ---
 
