@@ -9,7 +9,7 @@ The {{ site.name }}, {{ site.chapter }}
 ===================
 
 <ul class="listing">
-<li> <span>Spring 2019</span> <a href="{{ site.url }}/upcoming.html">Upcoming Topics</a></li>
+<li> <span>Fall 2019</span> <a href="{{ site.url }}/upcoming.html">Upcoming Topics</a></li>
 <li>  <a href="{{ site.url }}/previous.html">Previous Topics</a></li>
 </ul>
 
