@@ -16,13 +16,6 @@ end of every session, so please don't hesitate to bring some tidbit to share.
 Also, if you would like to contribute to a topic, contact the volunteer in
 charge of that topic to see if they would like to collaborate.
 
-- Sep 18 -- **Intro to THW git / Personal websites** - Joshua Yao-Yu Lin and Anshuman Chaube
-- Oct 2 -- **Reproducibility / Workflow ** - Cassidy Wagner
-- Oct 16 -- **Data visualization ** - Patrick Aleo and Alex Gagliano
-- Nov 6 -- **Code Challenges ** - Shubhang Goswami
-- Nov 20 -- **Parallelization ** - Cail Daley and Paul 'Yubo' Yang
-- Dec 4 -- **Professional Career Opportunities** - Invited speakers (TBD)
-
 <ul class="listing">
   {% assign upcoming = site.posts | where: "category" , "upcoming" %}
   {% for post in upcoming reversed %}
