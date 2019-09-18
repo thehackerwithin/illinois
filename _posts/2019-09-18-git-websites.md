@@ -2,7 +2,7 @@
 layout: post
 title: Git Websites
 author: Cail Daley
-category: upcoming
+category: posts
 tags: meeting
 ---
 
