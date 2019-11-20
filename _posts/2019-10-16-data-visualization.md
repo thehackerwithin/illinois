@@ -2,7 +2,7 @@
 layout: post
 title: Data Visualization
 author: Patrick Aleo and Alex Gagliano
-category: upcoming
+category: posts
 tags: meeting
 ---
 

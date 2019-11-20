@@ -2,7 +2,7 @@
 layout: post
 title: Code Challenges
 author: Shubhang Goswami
-category: upcoming
+category: posts
 tags: meeting
 ---
 

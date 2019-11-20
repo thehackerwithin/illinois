@@ -2,7 +2,7 @@
 layout: post
 title: Reproducibility / Workflow
 author: Cassidy Wagner
-category: upcoming
+category: posts
 tags: meeting
 ---
 
