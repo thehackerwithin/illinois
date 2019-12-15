@@ -9,15 +9,10 @@ The {{ site.name }}, {{ site.chapter }}
 ===================
 
 <ul class="listing">
-<li> <span>Fall 2019</span> <a href="{{ site.url }}/upcoming.html">Upcoming Topics</a></li>
+<li> <span>Spring 2020</span> <a href="{{ site.url }}/upcoming.html">Upcoming Topics</a></li>
 <li>  <a href="{{ site.url }}/previous.html">Previous Topics</a></li>
 </ul>
 
-------
-
-**Fill out questionnaire** to help guide THW: [questionnaire][google_doc]
-
------
 
 What:
 -----
@@ -31,6 +26,8 @@ This meeting would be a great venue for introducing new libraries, showing off
 useful features of a scientific library or programming language you're using,
 or bringing up a computational problem you're having.
 
+Lunch generously provided by [Computational Science & Engineering][cse].
+
 Who:
 ----
 
@@ -39,24 +36,30 @@ Anyone interested in software development best practices is welcome to come to o
 When:
 -----
 
-Every first and third Wednesday of the month: lunch - 11:30 AM, meeting - 12 PM.
+Lunch 11:30 AM, meeting 12 PM
 
-- Sep 18 -- **Intro to THW git / Personal websites** - Joshua Yao-Yu Lin and Anshuman Chaube
-- Oct 2 -- **Reproducibility / Workflow ** - Cassidy Wagner
-- Oct 16 -- **Data visualization ** - Patrick Aleo and Alex Gagliano
-- Nov 6 -- **Code Challenges ** - Shubhang Goswami
-- Nov 20 -- **Parallelization ** - Cail Daley and Paul 'Yubo' Yang
-- Dec 4 -- **Professional Career Opportunities** - Invited speakers (TBD)
+### This Semester's Meetings
 
+<section class="content">
 
-Visit [Upcoming][upcoming] for descriptions
+<ul class="listing">
+  {% assign upcoming = site.posts | where: "category" , "upcoming" %}
+  {% for post in upcoming reversed %}
+  <li>
+  <span>{{ post.date | date: "%B %e, %Y" }}</span> <a href="{{ site.url }}{{ post.url }}">{{ post.title }} {% if post.author %} &ndash; {{ post.author }} {% endif %}</a>
+  </li>
+  {% endfor %}
+</ul>
+</section>
 
-Lunch generously provided by [Computational Science & Engineering][cse]
+<!-- Visit [upcoming][upcoming] for descriptions! -->
+Previous topics can be found [here](previous)!
+
 
 Where:
 -------
 
-NCSA room 2100
+NCSA 2100
 
 [1205 W Clark St, Urbana, IL][ncsa_map]
 
@@ -121,3 +124,4 @@ Other chapters:
 [googleForm]: https://docs.google.com/forms/d/1MLw4UiMu3Q_jELYYJRkSgJF4MsZfeLIwfbUEC9-5PD4/viewform?usp=send_form
 [cse]: http://cse.illinois.edu/
 [upcoming]: {{ site.url }}/upcoming.html
+[previous]: {{ site.url }}/previous.html

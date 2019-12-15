@@ -5,16 +5,12 @@ title: "Upcoming Topics"
 
 <section class="content">
 
-Upcoming Topics
+Current Topics
 ================
 
-**Fall 2019**
-
-The Hacker Within will explore the following tentative set of topics in
-Fall 2019. In addition to these topics, Lightning Talks are welcome at the
-end of every session, so please don't hesitate to bring some tidbit to share.
-Also, if you would like to contribute to a topic, contact the volunteer in
-charge of that topic to see if they would like to collaborate.
+Below are the meetings and topics scheduled for this semester.
+In addition to these topics, Lightning Talks are welcome at the end of every session, so please don't hesitate to bring some tidbit to share!
+Also, if you would like to contribute to a topic, contact the volunteer in charge of that topic to see if they would like to collaborate.
 
 <ul class="listing">
   {% assign upcoming = site.posts | where: "category" , "upcoming" %}
