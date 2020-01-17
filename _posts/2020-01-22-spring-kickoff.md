@@ -10,7 +10,7 @@ tags: meeting
 
 * Date: Jan 22, 2020
 * Time: 12:00 PM
-* Location: [1040 NCSA][ncsa_map]
+* Location: [2100 NCSA][ncsa_map]
 
 ---
 
@@ -23,11 +23,11 @@ Questions to think about:
 
 - What **has** and **hasn't** worked?
 - What topics should be covered?
-- Is there interested in long-term learning?
-- What kind of professional development would be helpful?
-	- resume, cover letter, presentation templates
-	- industry speakers
+	- Is there interest in long-term learning?
+	- What kind of professional development would be helpful?
+		- resume, cover letter, presentation templates?
 - THW Slack?
+- Paper-writing tools? (Mendeley, Zenodo, other citation managers, etc.)
 
 (I borrowed from [Spring '16 Planning post](Spring-16-Planning))
 
