@@ -8,14 +8,13 @@ tags: meeting
 
 ## Meeting Info
 
-* Date: Jan 22, 2020
-* Time: 12:00 PM
+* Date: Feb 5, 2020
+* Time: Lunch 11:30, Meeting 12:00 PM
 * Location: [2100 NCSA][ncsa_map]
 
 ---
 
 ## Spring '20 Planning
-
 
 There has been a lot of interest in THW at Illinois but we need to continue to provide the resources students want to help them excel!
 
