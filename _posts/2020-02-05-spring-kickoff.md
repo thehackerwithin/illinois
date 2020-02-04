@@ -27,6 +27,7 @@ Questions to think about:
 		- resume, cover letter, presentation templates?
 - THW Slack?
 - Paper-writing tools? (Mendeley, Zenodo, other citation managers, etc.)
+- [HAL Spring 2020 training and hackathons](http://www.ncsa.illinois.edu/enabling/data/deep_learning/news/hal_spring20)?
 
 (I borrowed from [Spring '16 Planning post](Spring-16-Planning))
 
