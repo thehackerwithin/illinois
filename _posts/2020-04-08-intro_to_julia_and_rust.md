@@ -13,6 +13,6 @@ tags: meeting
 * Location: Jitsi
 
 
-**Introduction to Julia: (Cail Daley)** [slides](html/intro_to_julia.slides.html) and [notebook](https://github.com/thehackerwithin/illinois/blob/master/2020-04-08_julia_and_rust/intro_to_julia.ipynb)
+**Introduction to Julia (Cail Daley):** [slides](../html/intro_to_julia.slides.html) and [notebook](https://github.com/thehackerwithin/illinois/blob/master/2020-04-08_julia_and_rust/intro_to_julia.ipynb)
 
-**Introduction to Rust (Jon Drobny)** [slides](https://github.com/thehackerwithin/illinois/blob/master/2020-04-08_julia_and_rust/Introduction%20to%20Rust.pdf)
+**Introduction to Rust (Jon Drobny):** [slides](https://github.com/thehackerwithin/illinois/blob/master/2020-04-08_julia_and_rust/Introduction%20to%20Rust.pdf)
