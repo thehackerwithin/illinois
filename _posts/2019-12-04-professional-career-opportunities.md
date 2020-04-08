@@ -2,7 +2,6 @@
 layout: post
 title: Professional Career Opportunities
 author: Invited speakers
-date: December 4
 category: posts
 tags: meeting
 ---

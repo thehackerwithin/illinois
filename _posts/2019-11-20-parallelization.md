@@ -2,7 +2,6 @@
 layout: post
 title: Parallelization
 author: Cail Daley and Paul 'Yubo' Yang
-date: November 20
 category: posts
 tags: meeting
 ---
