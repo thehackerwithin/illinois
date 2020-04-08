@@ -6,7 +6,7 @@ category: posts
 tags: meeting
 ---
 
-Cail: Over the past two decades, graphical processing units (GPUs) have become one of the most successful tools for accelerating numerical computing. On Wednesday I’ll begin by discussing the hardware considerations that have led to the prevalence of GPUs; then we’ll turn to some of the principles of GPU programming. We’ll close by examining GPU implementations of some common algorithms like image blurring and matrix multiplication. Slides hosted [here](html/gpu_slides.html)!
+Cail: Over the past two decades, graphical processing units (GPUs) have become one of the most successful tools for accelerating numerical computing. On Wednesday I’ll begin by discussing the hardware considerations that have led to the prevalence of GPUs; then we’ll turn to some of the principles of GPU programming. We’ll close by examining GPU implementations of some common algorithms like image blurring and matrix multiplication. Slides hosted [here](../html/gpu_slides.html)!
 
 [ECE 408 Applied Parallel Programming course website](https://wiki.illinois.edu/wiki/display/ECE408/ECE408+Home)
 
