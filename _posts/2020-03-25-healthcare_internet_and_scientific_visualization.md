@@ -1,8 +1,8 @@
 ---
 layout: post
-title: TBD
-author:
-category: upcoming
+title: Healthcare Internet & Scientific Visualization
+author: Brian Doolittle & Jon Drobny
+category: post
 tags: meeting
 ---
 
@@ -12,4 +12,3 @@ tags: meeting
 * Time: 12:00 PM
 * Location: [2100 NCSA][ncsa_map]
 
-## TBD

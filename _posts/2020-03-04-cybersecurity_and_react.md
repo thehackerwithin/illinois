@@ -1,15 +1,13 @@
 ---
 layout: post
-title: TBD
-author:
-category: upcoming
+title: Cybersecurity & React
+author: James Eyrich & Josh Vita
+category: posts
 tags: meeting
 ---
 
 ## Meeting Info
 
-* Date: Apr 8, 2020
+* Date: Mar 04, 2020
 * Time: 12:00 PM
 * Location: [2100 NCSA][ncsa_map]
-
-## TBD

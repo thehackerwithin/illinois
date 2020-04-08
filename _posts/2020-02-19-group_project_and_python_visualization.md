@@ -2,7 +2,7 @@
 layout: post
 title: Group Project Discussion / Python Visualization
 author: Everyone / Zeqian Li
-category: upcoming
+category: posts
 tags: meeting
 ---
 

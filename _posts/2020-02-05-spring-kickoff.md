@@ -2,7 +2,7 @@
 layout: post
 title: Spring '20 planning
 author: Cail Daley & Cassidy Wagner
-category: upcoming
+category: posts
 tags: meeting
 ---
 
