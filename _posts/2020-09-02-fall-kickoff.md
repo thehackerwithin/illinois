@@ -2,7 +2,7 @@
 layout: post
 title: Fall '20 planning
 author: Cail Daley & Cassidy Wagner
-category: posts
+category: upcoming
 tags: meeting
 ---
 
