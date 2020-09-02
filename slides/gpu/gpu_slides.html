@@ -1,0 +1,267 @@
+<!-- reveal.js template, Cail Daley
+User-defined variables:
+    - logo: path to an image
+    - logosize: percent of slide width, i.e. 20%
+-->
+
+<!DOCTYPE html>
+<html>
+
+
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Cail Daley">
+  <title>GPU Paralellization</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="/Users/cdaley/.panrun/reveal.js/css/reset.css">
+  <link rel="stylesheet" href="/Users/cdaley/.panrun/reveal.js/css/reveal.css">
+  <style>
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+
+  <link rel="stylesheet" href="/Users/cdaley/.panrun/reveal.js/css/theme/cail.css" id="theme">
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? '/Users/cdaley/.panrun/reveal.js/css/print/pdf.css' : '/Users/cdaley/.panrun/reveal.js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="/Users/cdaley/.panrun/reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+
+
+
+<body>
+
+  <div class="reveal">
+    <div class="slides">
+
+
+<section id="title-slide" data-background="background.jpg">
+  <h1 class="title" style="color:white;text-align:left">GPU Paralellization</h1>
+  <p class="author" style="color:white;text-align:left">Cail Daley</p>
+  <p class="date" style="color:white;text-align:left">THW, Nov 20 2019</p>
+</section>
+
+
+
+
+<section id="moores-law" class="slide level2">
+<h2>Moore’s Law</h2>
+<figure>
+<img data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Moore%27s_Law_Transistor_Count_1971-2018.png/1920px-Moore%27s_Law_Transistor_Count_1971-2018.png" style="width:60.0%" alt="" /><figcaption>By Max Roser - <a rel="nofollow" class="external free" href="https://ourworldindata.org/uploads/2019/05/Transistor-Count-over-time-to-2018.png">https://ourworldindata.org/uploads/2019/05/Transistor-Count-over-time-to-2018.png</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=79751151">Link</a></figcaption>
+</figure>
+</section>
+<section id="dennard-scaling" class="slide level2">
+<h2>Dennard scaling</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><br> <br></p>
+<ul>
+<li>voltage drain, capacitance, inductance <span class="math inline">\(∝\)</span> transistor size</li>
+<li>clock frequency <span class="math inline">\(∝ 1 /\)</span> transistor size</li>
+<li>total power is the same!</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<figure>
+<img data-src="https://miro.medium.com/max/3200/0*g3vKfFpancLiFP_l." style="width:100.0%" alt="" /><figcaption><a href="https://medium.com/@csoham358/beginners-guide-to-moore-s-law-3e00dd8b5057">Soham Chatterjee</a></figcaption>
+</figure>
+</div>
+</div>
+</section>
+<section id="the-end-of-scaling" class="slide level2">
+<h2>The end of scaling</h2>
+<figure>
+<img data-src="https://www.researchgate.net/profile/Luke_Shulenburger/publication/301650491/figure/fig24/AS:355250444750853@1461709714584/The-end-of-Dennard-Scaling-44.png" style="width:60.0%" alt="" /><figcaption>C. Moore, “Data Processing in Exascale-class Computing Systems,” presented at the Salishan Conference on High-Speed Computing, 2011.</figcaption>
+</figure>
+</section>
+<section id="section" class="slide level2">
+<h2></h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3 id="cpus-latency-oriented">CPUs: Latency Oriented</h3>
+<ul>
+<li><em>latency</em> is lag a computer instruction and its completion</li>
+</ul>
+<p><img data-src="cpu.png" class="fragment" data-fragment-index="0" /></p>
+<div class="fragment current-visible" data-fragment-index="1">
+<ul>
+<li><strong>CPU</strong>s use all kind of complicated tricks to minimize latency</li>
+</ul>
+</div>
+</div><div class="column" style="width:50%;">
+<h3 id="gpus-throughput-oriented">GPUs: Throughput Oriented</h3>
+<ul>
+<li><em>throughput</em> is number of operations per unit time</li>
+</ul>
+<p><img data-src="gpu.png" class="fragment" data-fragment-index="0" /></p>
+<div class="fragment current-visible" data-fragment-index="1">
+<ul>
+<li><strong>GPUs</strong> maximize throughput at the cost of latency</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="fragment current-visible" data-fragment-index="2">
+<p>Throughput <span class="math inline">\(×\)</span> Latency = Queue Size</p>
+</div>
+</section>
+<section id="section-1" class="slide level2">
+<h2></h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<h2 id="tasks-can-be-sensitive-to-latency">tasks can be sensitive to latency…</h2>
+<ul>
+<li>serial tasks
+<ul>
+<li>sequential or iterative calculations</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<h2 id="or-throughput">or throughput</h2>
+<ul>
+<li>pleasingly/embarrassingly parallel tasks
+<ul>
+<li>calculations are independent of one another</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<p><img data-src="parallel_grayscale.png" class="fragment current-visible" style="width:70.0%" /></p>
+</section>
+<section id="gpu-anatomy" class="slide level2">
+<h2>GPU anatomy</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><br><br></p>
+<h3 id="three-levels-of-organization">three levels of organization:</h3>
+<ul>
+<li>GPUs contain many small “threads” capable of performing calculations
+<ul>
+<li>each thread has a little bit of memory and a <code>threadIdx</code> (1, 2, or 3D)</li>
+</ul></li>
+<li>threads are grouped into “blocks”
+<ul>
+<li>each block has some shared memory and a <code>blockIdx</code> (1, 2, or 3D)</li>
+</ul></li>
+<li>blocks live on grids</li>
+</ul>
+</div><div class="column" style="width:25%;">
+<p><img data-src="gpu_anatomy.png" style="width:100.0%" /> <img data-src="gpu_anatomy_credit.png" style="width:100.0%" /></p>
+</div>
+</div>
+</section>
+<section id="example-image-blurring" class="slide level2">
+<h2>Example: Image Blurring</h2>
+<div class="columns">
+<div class="column" style="width:30%;">
+<p><br><br><br><br><br><br > <img data-src="image_blurring.png" /></p>
+</div><div class="column" style="width:70%;">
+<p><img data-src="image_blurring_diagram.png" /></p>
+</div>
+</div>
+</section>
+<section id="section-2" class="slide level2">
+<h2></h2>
+<p><img data-src="memory.png" /></p>
+</section>
+<section id="section-3" class="slide level2">
+<h2></h2>
+<p><img data-src="memory_example.png" /></p>
+</section>
+<section id="shared-memory-matrix-multiply" class="slide level2">
+<h2>Shared memory matrix multiply</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><br> <br></p>
+<p><img data-src="shared_memory.png" style="width:100.0%" /></p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="matmul.png" class="fragment" /></p>
+</div>
+</div>
+</section>
+<section id="thanks" class="slide level2">
+<h2>Thanks!</h2>
+</section>
+    </div>
+  </div>
+
+  <script src="/Users/cdaley/.panrun/reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Display the page number of the current slide
+        slideNumber: true,
+        // Push each slide change to the browser history
+        history: true,
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1600,
+        height: 900,
+        // Factor of the display size that should remain empty around the content
+        margin: 0.05,
+        math: {
+          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js',
+          config: 'TeX-AMS_SVG-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+          jax: ["input/TeX", "output/HTML-CSS"],
+          extensions: ["tex2jax.js"],
+          messageStyle: 'none',
+          "HTML-CSS": { fonts: ["TeX"] }
+        },
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: '/Users/cdaley/.panrun/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: '/Users/cdaley/.panrun/reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: '/Users/cdaley/.panrun/reveal.js/plugin/math/math.js', async: true },
+          { src: '/Users/cdaley/.panrun/reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+      // automatically load the initial fragment on a slide if the fragment
+      // has been defined with the 'preload' class
+      Reveal.addEventListener('slidechanged', function(event) {
+        if (event.currentSlide.querySelectorAll('.preload[data-fragment-index="0"]').length > 0) {
+          Reveal.nextFragment();
+        }
+      });
+
+      // if the initial fragment on a slide has been defined with a 'preload' class
+      // then transition to the previous slide if the fragment is hidden
+      Reveal.addEventListener('fragmenthidden', function(event) {
+        if (event.fragment.hasAttribute('data-fragment-index') && event.fragment.classList.contains('preload')) {
+          if (event.fragment.attributes['data-fragment-index'].value == "0") {
+            Reveal.prev();
+          }
+        }
+      });
+    </script>
+
+    </body>
+</html>
