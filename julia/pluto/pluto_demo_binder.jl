@@ -17,10 +17,7 @@ end
 # install & import packages
 begin
 	using Pkg
-	for package in ["CSV", "Plots", "PlutoUI", "Dates", "HTTP"]
-		Pkg.add(package)
-	end
-	
+	Pkg.add(["CSV", "Plots", "PlutoUI", "Dates", "HTTP"])
 	using CSV, Plots, PlutoUI, Dates, HTTP
 end
 
