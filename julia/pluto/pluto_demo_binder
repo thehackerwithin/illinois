@@ -14,13 +14,16 @@ macro bind(def, element)
 end
 
 # ╔═╡ cfef9466-f842-11ea-261b-2b80bceb9dc1
-using Pkg; Pkg.activate(".")
+using Pkg 
 
 # ╔═╡ e3ae18fe-f842-11ea-0847-3bbca7d15e33
-using CSV, Plots, PlutoUI, Dates
+using CSV, Plots, PlutoUI, Dates, HTTP
+
+# ╔═╡ 7a2e6d34-f849-11ea-3e86-719eb54b7b78
+pkg"add CSV Plots PlutoUI Dates HTTP"
 
 # ╔═╡ 3d64ff2c-f843-11ea-1991-05b467a6f3c8
-csv = CSV.File("case_data-2.csv", normalizenames=true)
+csv = CSV.File(HTTP.get("https://raw.githubusercontent.com/thehackerwithin/illinois/0f2fb19bdc9da5e6fd11004677fd0bc3866173bf/julia/pluto/case_data-2.csv").body, normalizenames=true)
 
 # ╔═╡ 4b5f4dda-f843-11ea-0154-9ba0ec840e23
 rate = csv.New_Cases
@@ -35,15 +38,16 @@ dates = Date.(first.(split.(csv._time, "T")))
 @bind ymax Slider(60:300; default=200)
 
 # ╔═╡ 99d6c060-f843-11ea-21d9-fdffbdb596d3
-plot(dates, rate, xlabel="Date", ylabel="# of tests", ylim=(ymin, ymax))
+plot(dates, rate, xlabel="Date", ylabel="Postivity Rate", ylim=(ymin, ymax))
 
 # ╔═╡ c4665d34-f845-11ea-016a-5f0faa7aaf7f
 @gif for i in 1:length(dates)
-	plot(dates[1:i], rate[1:i], xlabel="Date", ylabel="# of tests", ylim=(ymin, ymax))
+	plot(dates[1:i], rate[1:i], xlabel="Date", ylabel="Postivity Rate", ylim=(ymin, ymax))
 end
 
 # ╔═╡ Cell order:
 # ╠═cfef9466-f842-11ea-261b-2b80bceb9dc1
+# ╠═7a2e6d34-f849-11ea-3e86-719eb54b7b78
 # ╠═e3ae18fe-f842-11ea-0847-3bbca7d15e33
 # ╠═3d64ff2c-f843-11ea-1991-05b467a6f3c8
 # ╠═4b5f4dda-f843-11ea-0154-9ba0ec840e23
