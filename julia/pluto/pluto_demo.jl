@@ -37,6 +37,11 @@ plot(dates, rate, xlabel="Date", ylabel="Postivity Rate")
 # ╔═╡ aa5e2c38-f844-11ea-2d83-a31ffeadbac0
 @bind ymax Slider(0.6:0.02:6)
 
+# ╔═╡ c4665d34-f845-11ea-016a-5f0faa7aaf7f
+@gif for i in 1:length(dates)
+	plot(dates[1:i], rate[1:i], xlabel="Date", ylabel="Postivity Rate")
+end
+
 # ╔═╡ Cell order:
 # ╠═cfef9466-f842-11ea-261b-2b80bceb9dc1
 # ╠═e3ae18fe-f842-11ea-0847-3bbca7d15e33
@@ -46,3 +51,4 @@ plot(dates, rate, xlabel="Date", ylabel="Postivity Rate")
 # ╠═99d6c060-f843-11ea-21d9-fdffbdb596d3
 # ╠═a759712e-f843-11ea-1852-ff3fde291d2b
 # ╠═aa5e2c38-f844-11ea-2d83-a31ffeadbac0
+# ╠═c4665d34-f845-11ea-016a-5f0faa7aaf7f
