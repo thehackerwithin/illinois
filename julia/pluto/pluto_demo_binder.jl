@@ -14,13 +14,15 @@ macro bind(def, element)
 end
 
 # ╔═╡ cfef9466-f842-11ea-261b-2b80bceb9dc1
-using Pkg 
-
-# ╔═╡ e3ae18fe-f842-11ea-0847-3bbca7d15e33
-using CSV, Plots, PlutoUI, Dates, HTTP
-
-# ╔═╡ 7a2e6d34-f849-11ea-3e86-719eb54b7b78
-pkg"add CSV Plots PlutoUI Dates HTTP"
+# install & import packages
+begin
+	using Pkg
+	for package in ["CSV", "Plots", "PlutoUI", "Dates", "HTTP"]
+		Pkg.add(package)
+	end
+	
+	using CSV, Plots, PlutoUI, Dates, HTTP
+end
 
 # ╔═╡ 3d64ff2c-f843-11ea-1991-05b467a6f3c8
 csv = CSV.File(HTTP.get("https://raw.githubusercontent.com/thehackerwithin/illinois/0f2fb19bdc9da5e6fd11004677fd0bc3866173bf/julia/pluto/case_data-2.csv").body, normalizenames=true)
@@ -47,8 +49,6 @@ end
 
 # ╔═╡ Cell order:
 # ╠═cfef9466-f842-11ea-261b-2b80bceb9dc1
-# ╠═7a2e6d34-f849-11ea-3e86-719eb54b7b78
-# ╠═e3ae18fe-f842-11ea-0847-3bbca7d15e33
 # ╠═3d64ff2c-f843-11ea-1991-05b467a6f3c8
 # ╠═4b5f4dda-f843-11ea-0154-9ba0ec840e23
 # ╠═8fe751c8-f843-11ea-2b38-85b03e0a0a14
